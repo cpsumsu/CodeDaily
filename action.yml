@@ -2,7 +2,7 @@
 
 on:
   schedule:
-    - cron: "30 13 * * *"    #runs at 13:30 UTC everyday
+    - cron: "* 23 13 * * * *"    #runs at 13:30 UTC everyday
 
 jobs:
   getdataandrefreshmap:

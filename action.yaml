@@ -30,3 +30,11 @@ runs:
       id: get-square
       run: python ActionPy/get_num_square.py
       shell: bash
+    - name: Run autoLs
+      run: |
+        python ActionPy/autoLs.py
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "crongenerated"
+        git push

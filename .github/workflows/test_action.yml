@@ -1,10 +1,12 @@
-name: Test Action
-on: [push]
+name: Update Newest List of Leecode Problems
+on:
+  schedule:
+    - cron: "00 19 * * *"    #runs at 14:00 UTC everyday
 
 jobs:
   get-num-square:
     runs-on: ubuntu-latest
-    name: Returns the number square
+    name: Update Newest List of Leecode Problems
     steps:
       - name: Checkout
         uses: actions/checkout@v2

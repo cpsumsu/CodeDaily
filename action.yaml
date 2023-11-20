@@ -38,3 +38,4 @@ runs:
         git add .
         git commit -m "crongenerated"
         git push
+      shell: bash

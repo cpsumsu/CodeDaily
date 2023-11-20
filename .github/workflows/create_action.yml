@@ -10,6 +10,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Create file
         id: get_square
-        uses: ./ # Uses an action in the root directory
+        uses: # Uses an action in the root directory
         # or use a released GitHub Action
         # uses: shipyard/github-action/fetch-shipyard-env@1.0.0

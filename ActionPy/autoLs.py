@@ -12,7 +12,7 @@ def generate_markdown_file(directory, output_file):
     ps = {}
     for i in range(len(df)):
         ps[int(df.ID[i])] = df.Rating[i]
-        print(ps[int(df.ID[i])])
+        # print(ps[int(df.ID[i])])
 
     with open(output_file, 'w+', encoding="UTF-8") as f:
         f.write("# LeetCode List\n\n")

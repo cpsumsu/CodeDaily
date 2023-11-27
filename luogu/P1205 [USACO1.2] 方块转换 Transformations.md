@@ -1,5 +1,5 @@
 ---
-Difficulty: "普及−"
+Difficulty: "普及/提高−"
 tags: ["模擬"]
 ---
 

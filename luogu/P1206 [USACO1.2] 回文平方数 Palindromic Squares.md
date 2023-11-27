@@ -1,5 +1,5 @@
 ---
-Difficulty: "普及"
+Difficulty: "普及-"
 tags: ["回文數", "n進制"]
 ---
 

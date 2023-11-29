@@ -23,6 +23,8 @@ def LC_generate_markdown_file(directory, output_file):
             for file in files:
                 file_path = os.path.join(root, file)
                 file_name = os.path.basename(file_path)
+                if (file_name[-3:] != ".md"):
+                    continue
                 file_name = file_name[:-3]
                 relative_path = os.path.relpath(file_path, directory)
                 
@@ -32,7 +34,7 @@ def LC_generate_markdown_file(directory, output_file):
                 number = re.match(r'^(\d+)', relative_path)
                 if number:
                     extracted_number = number.group(1)
-                    print(f"Title: {relative_path}\nExtracted Number: {extracted_number}\n")
+                    # print(f"Title: {relative_path}\nExtracted Number: {extracted_number}")
                     Rating = 0 if int(extracted_number) not in ps else ps[int(extracted_number)]
                 else:
                     # print(f"No number found in the title: {relative_path}\n")
@@ -62,6 +64,8 @@ def LG_generate_markdown_file(directory, output_file):
             for file in files:
                 file_path = os.path.join(root, file)
                 file_name = os.path.basename(file_path)
+                if (file_name[-3:] != ".md"):
+                    continue
                 file_name = file_name[:-3]
                 relative_path = os.path.relpath(file_path, directory)
                 
@@ -107,6 +111,7 @@ def ReDiff(path: str):
     return tags, difficulty  
 
 def ReadMD(filename: str):
+    print("Loading:" + filename)
     with open(filename, "r", encoding="UTF-8") as file:
         content = file.read()
     return content

@@ -26,15 +26,11 @@ runs:
       run: |
               echo "INPUT_NUM=${{ inputs.num }}" >> $GITHUB_ENV
       shell: bash
-    - name: Fetch the number's square
-      id: get-square
-      run: python ActionPy/get_num_square.py
-      shell: bash
     - name: Run autoLs
       run: |
         python ActionPy/autoLs.py
-        git config user.name github-actions
-        git config user.email github-actions@github.com
+        git config user.name "$(git log -n 1 --pretty=format:%an)"
+        git config user.email "$(git log -n 1 --pretty=format:%ae)"
         git add .
         git commit -m "crongenerated"
         git push

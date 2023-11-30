@@ -5,6 +5,7 @@
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
 | [1410. HTML 实体解析器](./leetcode/1410.%20HTML%20实体解析器.md) | 1405.4005354401 | Medium | String |
 | [2304. 网格中的最小路径代价](./leetcode/2304.%20网格中的最小路径代价.md) | 1658.3530344788 | Medium | Dp |
+| [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
 | [2938. 区分黑球与白球](./leetcode/2938.%20区分黑球与白球.md) | 1422.7125559974 | Medium | Greedy |
@@ -33,3 +34,4 @@
 | [120. Triangle](./leetcode/120.%20Triangle.md) |  |  | dp, paths, reverse |
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 |  | implementation |
+| [2336. 无限集中的最小数字](./leetcode/2336.%20无限集中的最小数字.md) | 1375.0376362104 | Medium | Set |

@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Fetch num squared
         id: get_square
-        uses: ./ # Uses an action in the root directory
+        uses: ./ActionPy/action_auto_commit/action.yaml # Uses an action in the root directory
         # or use a released GitHub Action
         # uses: shipyard/github-action/fetch-shipyard-env@1.0.0
         with:

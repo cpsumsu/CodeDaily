@@ -81,6 +81,33 @@ def LG_generate_markdown_file(directory, output_file):
 
     print(f"Markdown file generated: {output_file}")
 
+def PA_generate_markdown_file(directory, output_file):
+    with open(output_file, 'w+', encoding="UTF-8") as f:
+        f.write("# luogu List\n\n")
+        f.write("| Question | Difficulty | Tags |\n")
+        f.write("|---|---|---|\n")
+
+        for root, dirs, files in os.walk(directory):
+            for file in files:
+                file_path = os.path.join(root, file)
+                file_name = os.path.basename(file_path)
+                if (file_name[-3:] != ".md"):
+                    continue
+                file_name = file_name[:-3]
+                relative_path = os.path.relpath(file_path, directory)
+                
+                tags ,Diff = ReDiff(f"{directory}/{relative_path}")
+                
+                Dif_name = "" if Diff == None else f"{Diff}"
+                tags_name = "" if tags == [] else ', '.join(str(t) for t in tags)
+
+                relative_path = relative_path.replace(" ", "%20")
+                markdown_link = f"[{file_name}]({directory}/{relative_path})"
+                result = f"| {markdown_link} | {Dif_name} | {tags_name} |\n"
+                f.write(f"{result}")
+
+    print(f"Markdown file generated: {output_file}")
+
 def ReDiff(path: str):
     content = ReadMD(path)
 
@@ -132,3 +159,11 @@ directory_to_search = "./luogu"
 output_markdown_file = "luoguList.md"
 
 LG_generate_markdown_file(directory_to_search, output_markdown_file)
+
+# paizajp
+directory_to_search = "./paizajp"
+
+# Specify the output Markdown file
+output_markdown_file = "paizajpList.md"
+
+PA_generate_markdown_file(directory_to_search, output_markdown_file)

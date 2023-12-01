@@ -4,6 +4,8 @@ For those who concerned, this is daily coding training repository for competitiv
 
 - [LeedCode Problems List](LeetCodeList.md)
 - [Luogu Problems List](luoguList.md)
+- [Paizajp Problems List](paizajpList.md)
+
 
 # Auto Commit Rule:
 - Continue updating: autocommit the info under the format:

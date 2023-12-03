@@ -37,6 +37,7 @@
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
 | [100138. 最大化网格图中正方形空洞的面积](./leetcode/100138.%20最大化网格图中正方形空洞的面积.md) |  | Medium | Greedy |
+| [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |
 | [120. Triangle](./leetcode/120.%20Triangle.md) |  |  | dp, paths, reverse |
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 |  | implementation |

@@ -8,6 +8,7 @@
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
+| [1038. 从二叉搜索树到更大和树](./leetcode/1038.%20从二叉搜索树到更大和树.md) | 1374.6755455786 | Medium | dfs |
 | [2938. 区分黑球与白球](./leetcode/2938.%20区分黑球与白球.md) | 1422.7125559974 | Medium | Greedy |
 | [62. Unique Paths](./leetcode/62.%20Unique%20Paths.md) |  |  | dp, paths, math |
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |

@@ -6,6 +6,7 @@
 | [P1894 [USACO4.2] 完美的牛栏The Perfect Stall](./luogu/P1894%20[USACO4.2]%20完美的牛栏The%20Perfect%20Stall.md) | 普及+/提高 | 二分圖, 匈牙利算法 |
 | [P1134 [USACO3.2] 阶乘问题](./luogu/P1134%20[USACO3.2]%20阶乘问题.md) | 普及/提高− | 構造 |
 | [P1209 [USACO1.3] 修理牛棚 Barn Repair](./luogu/P1209%20[USACO1.3]%20修理牛棚%20Barn%20Repair.md) | 普及/提高− | Greedy |
+| [P2747 [USACO5.4] 周游加拿大Canada Tour](./luogu/P2747%20[USACO5.4]%20周游加拿大Canada%20Tour.md) | 提高+/省选− | String, dp |
 | [P1465 [USACO2.2] 序言页码 Preface Numbering](./luogu/P1465%20[USACO2.2]%20序言页码%20Preface%20Numbering.md) | 普及/提高− | 構造, 羅馬數字 |
 | [P1207 [USACO1.2] 双重回文数 Dual Palindromes](./luogu/P1207%20[USACO1.2]%20双重回文数%20Dual%20Palindromes.md) | 普及- | 回文數, n進制 |
 | [P2728 [USACO3.2] 纺车的轮子 Spinning Wheels](./luogu/P2728%20[USACO3.2]%20纺车的轮子%20Spinning%20Wheels.md) | 普及/提高− | 模擬 |
@@ -19,19 +20,23 @@
 | [P2751 [USACO4.2] 工序安排 Job Processing](./luogu/P2751%20[USACO4.2]%20工序安排%20Job%20Processing.md) | 提高+/省选− | Greedy, 枚舉 |
 | [P1560 [USACO5.2] 蜗牛的旅行Snail Trails](./luogu/P1560%20[USACO5.2]%20蜗牛的旅行Snail%20Trails.md) | 提高+/省选− | DFS |
 | [P1460 [USACO2.1] 健康的荷斯坦奶牛 Healthy Holsteins](./luogu/P1460%20[USACO2.1]%20健康的荷斯坦奶牛%20Healthy%20Holsteins.md) | 普及− | DFS |
+| [P2723 [USACO3.1] 丑数 Humble Numbers](./luogu/P2723%20[USACO3.1]%20丑数%20Humble%20Numbers.md) | 普及/提高− | dp |
 | [P2743 [USACO5.1] 乐曲主题Musical Themes](./luogu/P2743%20[USACO5.1]%20乐曲主题Musical%20Themes.md) | 提高+/省选− | dp |
 | [P1211 [USACO1.3] 牛式 Prime Cryptarithm](./luogu/P1211%20[USACO1.3]%20牛式%20Prime%20Cryptarithm.md) | 普及− | 枚舉 |
 | [P1206 [USACO1.2] 回文平方数 Palindromic Squares](./luogu/P1206%20[USACO1.2]%20回文平方数%20Palindromic%20Squares.md) | 普及- | 回文數, n進制 |
 | [P2749 [USACO5.1] 夜空繁星Starry Night](./luogu/P2749%20[USACO5.1]%20夜空繁星Starry%20Night.md) | 提高+/省选− | 枚舉, BFS |
+| [P1546 [USACO3.1] 最短网络 Agri-Net](./luogu/P1546%20[USACO3.1]%20最短网络%20Agri-Net.md) | 普及− | Prim 算法 |
 | [P2734 [USACO3.3] 游戏 A Game](./luogu/P2734%20[USACO3.3]%20游戏%20A%20Game.md) | 普及+/提高 | dp, 前綴和 |
 | [P2727 [USACO3.2] 01串 Stringsobits](./luogu/P2727%20[USACO3.2]%2001串%20Stringsobits.md) | 提高+/省选− | dp |
 | [P2739 [USACO4.4] 棋盘游戏Shuttle Puzzle](./luogu/P2739%20[USACO4.4]%20棋盘游戏Shuttle%20Puzzle.md) | 普及+/提高 | 構造, bfs |
 | [P1205 [USACO1.2] 方块转换 Transformations](./luogu/P1205%20[USACO1.2]%20方块转换%20Transformations.md) | 普及/提高− | 模擬 |
 | [P1208 [USACO1.3] 混合牛奶 Mixing Milk](./luogu/P1208%20[USACO1.3]%20混合牛奶%20Mixing%20Milk.md) | 普及- | Greedy |
 | [P2737 [USACO4.1] 麦香牛块Beef McNuggets](./luogu/P2737%20[USACO4.1]%20麦香牛块Beef%20McNuggets.md) | 普及+/提高 | Dp, Math, 完全背包 |
+| [P2701 [USACO5.3] 巨大的牛棚Big Barn](./luogu/P2701%20[USACO5.3]%20巨大的牛棚Big%20Barn.md) | 普及/提高− | dp |
 | [P2752 [USACO4.3] 街道赛跑Street Race](./luogu/P2752%20[USACO4.3]%20街道赛跑Street%20Race.md) | 提高+/省选− | DFS |
 | [P1203 [USACO1.1] 坏掉的项链 Broken Necklace](./luogu/P1203%20[USACO1.1]%20坏掉的项链%20Broken%20Necklace.md) | 普及− | 三指針 |
 | [P2742 [USACO5.1] 圈奶牛Fencing the Cows【模板】二维凸包](./luogu/P2742%20[USACO5.1]%20圈奶牛Fencing%20the%20Cows【模板】二维凸包.md) | 提高+/省选− | 二维凸包 |
+| [P2725 [USACO3.1] 邮票 Stamps](./luogu/P2725%20[USACO3.1]%20邮票%20Stamps.md) | 普及/提高− | dp |
 | [P1214 [USACO1.4] 等差数列 Arithmetic Progressions](./luogu/P1214%20[USACO1.4]%20等差数列%20Arithmetic%20Progressions.md) | 普及+/提高 | 枚舉 |
 | [P1461 [USACO2.1] 海明码 Hamming Codes](./luogu/P1461%20[USACO2.1]%20海明码%20Hamming%20Codes.md) | 普及/提高− | 枚舉, 二進制 |
 | [P2687 [USACO4.3] 逢低吸纳Buy Low, Buy Lower](./luogu/P2687%20[USACO4.3]%20逢低吸纳Buy%20Low,%20Buy%20Lower.md) | 普及+/提高 | dp, dfs |

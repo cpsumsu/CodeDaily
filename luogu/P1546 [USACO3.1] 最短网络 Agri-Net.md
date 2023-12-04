@@ -6,7 +6,10 @@ tags: ["Prim 算法"]
 > Problem: [P1546 [USACO3.1] 最短网络 Agri-Net](https://www.luogu.com.cn/problem/P1546)
 
 # 思路
-- Prim 算法
+Prim 算法
+1. 選擇一個邊權重最小的頂點作為起點。
+2. 找出與目前頂點相連的權重最小的邊，並將該頂點標記為選取。
+3. 重複步驟2，直到找到所有頂點，即得到圖的最小生成樹。
 
 # 复杂度
 - 时间复杂度:
@@ -71,10 +74,12 @@ int main()
     {
         int idx = 0;
         for (int j = 1; j <= t; ++j)
-            if (!vis[j] && a[j] < a[idx]) idx = j;
+            if (!vis[j] && a[j] < a[idx]) 
+                idx = j;
         vis[idx] = true;
         for (int j = 1; j <= t; ++j)
-            if (!vis[j] && g[idx][j] < a[j]) a[j] = g[idx][j];
+            if (!vis[j] && g[idx][j] < a[j]) 
+                a[j] = g[idx][j];
     }
     for (int i = 1; i <= t; ++i) ans += a[i];
     cout << ans << endl;

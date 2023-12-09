@@ -9,6 +9,7 @@
 | [P1209 [USACO1.3] 修理牛棚 Barn Repair](./luogu/P1209%20[USACO1.3]%20修理牛棚%20Barn%20Repair.md) | 普及/提高− | Greedy |
 | [P1207 [USACO1.2] 双重回文数 Dual Palindromes](./luogu/P1207%20[USACO1.2]%20双重回文数%20Dual%20Palindromes.md) | 普及- | 回文數, n進制 |
 | [P1460 [USACO2.1] 健康的荷斯坦奶牛 Healthy Holsteins](./luogu/P1460%20[USACO2.1]%20健康的荷斯坦奶牛%20Healthy%20Holsteins.md) | 普及− | DFS |
+| [P1006 [NOIP2008 提高组] 传纸条](./luogu/P1006%20[NOIP2008%20提高组]%20传纸条.md) | 普及+/提高 | DP |
 | [P1546 [USACO3.1] 最短网络 Agri-Net](./luogu/P1546%20[USACO3.1]%20最短网络%20Agri-Net.md) | 普及− | Prim 算法 |
 | [P2746 [USACO5.3] 校园网Network of Schools](./luogu/P2746%20[USACO5.3]%20校园网Network%20of%20Schools.md) | 提高+/省选− | 强連通分量, Tarjan, DFS |
 | [P1206 [USACO1.2] 回文平方数 Palindromic Squares](./luogu/P1206%20[USACO1.2]%20回文平方数%20Palindromic%20Squares.md) | 普及- | 回文數, n進制 |

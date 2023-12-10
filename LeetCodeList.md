@@ -35,6 +35,7 @@
 | [2646. 最小化旅行的价格总和](./leetcode/2646.%20最小化旅行的价格总和.md) | 2238.2830745228 | Hard | DFS |
 | [1657. 确定两个字符串是否接近](./leetcode/1657.%20确定两个字符串是否接近.md) | 1530.4652027753 | Medium | String |
 | [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |
+| [867. Transpose Matrix](./leetcode/867.%20Transpose%20Matrix.md) | 1258.8401788462 |  | implementation |
 | [1685. Sum of Absolute Differences in a Sorted Array](./leetcode/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md) | 1495.715740828 |  | dp |
 | [2661. 找出叠涂元素](./leetcode/2661.%20找出叠涂元素.md) | 1502.6623568929 | Medium | Hash Map |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |

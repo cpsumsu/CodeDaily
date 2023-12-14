@@ -46,6 +46,7 @@
 | [828. 统计子串中的唯一字符](./leetcode/828.%20统计子串中的唯一字符.md) | 2034.4067304341 | Hard | String, enumerate |
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  |  | dp |
 | [2824. 统计和小于目标的下标对数目](./leetcode/2824.%20统计和小于目标的下标对数目.md) | 1165.8838207286 | Easy | Binary Search |
+| [2960. Count Tested Devices After Test Operations](./leetcode/2960.%20Count%20Tested%20Devices%20After%20Test%20Operations.md) |  |  | implementation |
 | [29. Divide Two Integers](./leetcode/29.%20Divide%20Two%20Integers.md) |  |  | implementation, bit manipulation |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 |  | implementation |
 | [100138. 最大化网格图中正方形空洞的面积](./leetcode/100138.%20最大化网格图中正方形空洞的面积.md) |  | Medium | Greedy |

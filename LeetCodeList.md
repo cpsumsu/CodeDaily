@@ -16,6 +16,7 @@
 | [64. Minimum Path Sum](./leetcode/64.%20Minimum%20Path%20Sum.md) |  |  | dp, optimisation |
 | [1727. Largest Submatrix With Rearrangements](./leetcode/1727.%20Largest%20Submatrix%20With%20Rearrangements.md) | 1926.7059583253 |  | sorting, greedy |
 | [94. Binary Tree Inorder Traversal](./leetcode/94.%20Binary%20Tree%20Inorder%20Traversal.md) |  |  | binary tree |
+| [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |
 | [2646. 最小化旅行的价格总和](./leetcode/2646.%20最小化旅行的价格总和.md) | 2238.2830745228 | Hard | DFS |
 | [100133. 购买水果需要的最少金币数](./leetcode/100133.%20购买水果需要的最少金币数.md) |  | Medium | DP |
 | [17. Letter Combinations of a Phone Number](./leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md) |  | Medium | Constructive algorithm |

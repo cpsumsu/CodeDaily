@@ -11,6 +11,7 @@
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |
 | [2336. 无限集中的最小数字](./leetcode/2336.%20无限集中的最小数字.md) | 1375.0376362104 | Medium | Set |
+| [162. 寻找峰值](./leetcode/162.%20寻找峰值.md) |  |  |  |
 | [2661. 找出叠涂元素](./leetcode/2661.%20找出叠涂元素.md) | 1502.6623568929 | Medium | Hash Map |
 | [5. Longest Palindromic Substring](./leetcode/5.%20Longest%20Palindromic%20Substring.md) |  | Medium | String, dp, Manacher |
 | [64. Minimum Path Sum](./leetcode/64.%20Minimum%20Path%20Sum.md) |  |  | dp, optimisation |
@@ -34,6 +35,7 @@
 | [62. Unique Paths](./leetcode/62.%20Unique%20Paths.md) |  |  | dp, paths, math |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
 | [1657. 确定两个字符串是否接近](./leetcode/1657.%20确定两个字符串是否接近.md) | 1530.4652027753 | Medium | String |
+| [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [867. Transpose Matrix](./leetcode/867.%20Transpose%20Matrix.md) | 1258.8401788462 |  | implementation |
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |

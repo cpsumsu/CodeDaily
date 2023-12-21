@@ -31,6 +31,7 @@
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
 | [907. 子数组的最小值之和](./leetcode/907.%20子数组的最小值之和.md) | 1975.5726300727 | Medium | 贡献法, Stack, Array, 單調棧 |
 | [2304. 网格中的最小路径代价](./leetcode/2304.%20网格中的最小路径代价.md) | 1658.3530344788 | Medium | Dp |
+| [2866. 美丽塔 II](./leetcode/2866.%20美丽塔%20II.md) | 2071.6322841217 | Hard | 單調棧 |
 | [1094. 拼车](./leetcode/1094.%20拼车.md) | 1441.4290319373 | Medium | difference array |
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |
@@ -38,6 +39,7 @@
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
 | [1657. 确定两个字符串是否接近](./leetcode/1657.%20确定两个字符串是否接近.md) | 1530.4652027753 | Medium | String |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
+| [1637. Widest Vertical Area Between Two Points Containing No Points](./leetcode/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.md) | 1486.764933431 |  | implementation |
 | [867. Transpose Matrix](./leetcode/867.%20Transpose%20Matrix.md) | 1258.8401788462 |  | implementation |
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |

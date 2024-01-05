@@ -2,6 +2,7 @@
 
 | Question | Rating | Difficulty | Tags |
 |---|---|---|---|
+| [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 |  |  |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |
 | [1457. 二叉树中的伪回文路径](./leetcode/1457.%20二叉树中的伪回文路径.md) | 1405.0021415178 | Medium | DFS, 回溯 |
 | [337. 打家劫舍 III](./leetcode/337.%20打家劫舍%20III.md) |  | Medium | DFS, Tree DP |

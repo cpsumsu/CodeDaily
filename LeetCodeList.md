@@ -27,6 +27,7 @@
 | [100133. 购买水果需要的最少金币数](./leetcode/100133.%20购买水果需要的最少金币数.md) |  | Medium | DP |
 | [2840. Check if Strings Can be Made Equal With Operations II](./leetcode/2840.%20Check%20if%20Strings%20Can%20be%20Made%20Equal%20With%20Operations%20II.md) | 1486.2147876747 |  | dp |
 | [17. Letter Combinations of a Phone Number](./leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md) |  | Medium | Constructive algorithm |
+| [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  |  |  |
 | [221. Maximal Square](./leetcode/221.%20Maximal%20Square.md) |  | Medium | dp, array, matrix |
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |
 | [39. Combination Sum](./leetcode/39.%20Combination%20Sum.md) |  | Medium | Backtracking, DFS |
@@ -34,6 +35,7 @@
 | [139. Word Break](./leetcode/139.%20Word%20Break.md) |  |  | dp, string, backpack |
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
 | [907. 子数组的最小值之和](./leetcode/907.%20子数组的最小值之和.md) | 1975.5726300727 | Medium | 贡献法, Stack, Array, 單調棧 |
+| [2707. 字符串中的额外字符](./leetcode/2707.%20字符串中的额外字符.md) | 1735.8505509901 | Medium | Hash Map, dp |
 | [2304. 网格中的最小路径代价](./leetcode/2304.%20网格中的最小路径代价.md) | 1658.3530344788 | Medium | Dp |
 | [2866. 美丽塔 II](./leetcode/2866.%20美丽塔%20II.md) | 2071.6322841217 | Hard | 單調棧 |
 | [1094. 拼车](./leetcode/1094.%20拼车.md) | 1441.4290319373 | Medium | difference array |
@@ -45,6 +47,7 @@
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](./leetcode/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.md) | 1486.764933431 |  | implementation |
 | [867. Transpose Matrix](./leetcode/867.%20Transpose%20Matrix.md) | 1258.8401788462 |  | implementation |
+| [872. Leaf-Similar Trees](./leetcode/872.%20Leaf-Similar%20Trees.md) | 1287.8970301681 | Easy | String, dp |
 | [2487. 从链表中移除节点](./leetcode/2487.%20从链表中移除节点.md) | 1454.5942017003 |  |  |
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |

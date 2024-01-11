@@ -3,12 +3,13 @@
 | Question | Rating | Difficulty | Tags |
 |---|---|---|---|
 | [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 |  |  |
+| [2807. 在链表中插入最大公约数](./leetcode/2807.%20在链表中插入最大公约数.md) | 1279.0301521682 | Medium | Linked List |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |
 | [72. Edit Distance](./leetcode/72.%20Edit%20Distance.md) |  | Medium | String, dp |
 | [1457. 二叉树中的伪回文路径](./leetcode/1457.%20二叉树中的伪回文路径.md) | 1405.0021415178 | Medium | DFS, 回溯 |
 | [337. 打家劫舍 III](./leetcode/337.%20打家劫舍%20III.md) |  | Medium | DFS, Tree DP |
 | [1685. Sum of Absolute Differences in a Sorted Array](./leetcode/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md) | 1495.715740828 |  | dp |
-| [516. Longest Palindromic Subsequence](./leetcode/516.%20Longest%20Palindromic%20Subsequence.md) |  | Medium | String, dp |
+| [516. Longest Palindromic Subsequence](./leetcode/516.%20Longest%20Palindromic%20Subsequence.md) |  |  | dp |
 | [1038. 从二叉搜索树到更大和树](./leetcode/1038.%20从二叉搜索树到更大和树.md) | 1374.6755455786 | Medium | dfs |
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
@@ -57,6 +58,7 @@
 | [606. Construct String from Binary Tree](./leetcode/606.%20Construct%20String%20from%20Binary%20Tree.md) |  |  | implementation |
 | [100121. 查找包含给定字符的单词](./leetcode/100121.%20查找包含给定字符的单词.md) |  | Easy | 枚舉 |
 | [1410. HTML 实体解析器](./leetcode/1410.%20HTML%20实体解析器.md) | 1405.4005354401 | Medium | String |
+| [2645. 构造有效字符串的最少插入数](./leetcode/2645.%20构造有效字符串的最少插入数.md) | 1477.7669322402 | Medium | Greedy |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
 | [828. 统计子串中的唯一字符](./leetcode/828.%20统计子串中的唯一字符.md) | 2034.4067304341 | Hard | String, enumerate |
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  |  | dp |

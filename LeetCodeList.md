@@ -13,6 +13,7 @@
 | [516. Longest Palindromic Subsequence](./leetcode/516.%20Longest%20Palindromic%20Subsequence.md) |  |  | dp |
 | [1038. 从二叉搜索树到更大和树](./leetcode/1038.%20从二叉搜索树到更大和树.md) | 1374.6755455786 | Medium | dfs |
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
+| [1347. Minimum Number of Steps to Make Two Strings Anagram](./leetcode/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md) | 1330.918577828 |  | implementation |
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |

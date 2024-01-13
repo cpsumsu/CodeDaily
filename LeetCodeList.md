@@ -3,6 +3,7 @@
 | Question | Rating | Difficulty | Tags |
 |---|---|---|---|
 | [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 |  |  |
+| [2085. 统计出现过一次的公共字符串](./leetcode/2085.%20统计出现过一次的公共字符串.md) | 1307.4608905199 | Easy | hash map |
 | [2807. 在链表中插入最大公约数](./leetcode/2807.%20在链表中插入最大公约数.md) | 1279.0301521682 | Medium | Linked List |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |
 | [72. Edit Distance](./leetcode/72.%20Edit%20Distance.md) |  | Medium | String, dp |
@@ -26,6 +27,7 @@
 | [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |
 | [2646. 最小化旅行的价格总和](./leetcode/2646.%20最小化旅行的价格总和.md) | 2238.2830745228 | Hard | DFS |
 | [100133. 购买水果需要的最少金币数](./leetcode/100133.%20购买水果需要的最少金币数.md) |  | Medium | DP |
+| [1704. Determine if String Halves Are Alike](./leetcode/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.md) | 1207.7224406285 | Easy | implementation |
 | [2840. Check if Strings Can be Made Equal With Operations II](./leetcode/2840.%20Check%20if%20Strings%20Can%20be%20Made%20Equal%20With%20Operations%20II.md) | 1486.2147876747 |  | dp |
 | [17. Letter Combinations of a Phone Number](./leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md) |  | Medium | Constructive algorithm |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  |  |  |
@@ -44,6 +46,7 @@
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |
 | [62. Unique Paths](./leetcode/62.%20Unique%20Paths.md) |  |  | dp, paths, math |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
+| [712. Minimum ASCII Delete Sum for Two Strings](./leetcode/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.md) |  | Medium | String, dp |
 | [1657. 确定两个字符串是否接近](./leetcode/1657.%20确定两个字符串是否接近.md) | 1530.4652027753 | Medium | String |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](./leetcode/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.md) | 1486.764933431 |  | implementation |

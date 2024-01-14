@@ -75,3 +75,4 @@
 | [264. Ugly Number II](./leetcode/264.%20Ugly%20Number%20II.md) |  | Medium | dp, math |
 | [1671. 得到山形数组的最少删除次数](./leetcode/1671.%20得到山形数组的最少删除次数.md) | 1912.8455659711 |  |  |
 | [100138. 最大化网格图中正方形空洞的面积](./leetcode/100138.%20最大化网格图中正方形空洞的面积.md) |  | Medium | Greedy |
+| [83. 删除排序链表中的重复元素](./leetcode/83.%20删除排序链表中的重复元素.md) |  | Easy | linked list |

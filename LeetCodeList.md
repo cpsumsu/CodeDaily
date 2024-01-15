@@ -71,6 +71,7 @@
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |
 | [29. Divide Two Integers](./leetcode/29.%20Divide%20Two%20Integers.md) |  |  | implementation, bit manipulation |
 | [746. 使用最小花费爬楼梯](./leetcode/746.%20使用最小花费爬楼梯.md) | 1358.3561730566 | easy | dp |
+| [82. 删除排序链表中的重复元素 II](./leetcode/82.%20删除排序链表中的重复元素%20II.md) |  |  |  |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 |  | implementation |
 | [264. Ugly Number II](./leetcode/264.%20Ugly%20Number%20II.md) |  | Medium | dp, math |
 | [1671. 得到山形数组的最少删除次数](./leetcode/1671.%20得到山形数组的最少删除次数.md) | 1912.8455659711 |  |  |

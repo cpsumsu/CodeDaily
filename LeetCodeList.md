@@ -66,6 +66,7 @@
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
 | [828. 统计子串中的唯一字符](./leetcode/828.%20统计子串中的唯一字符.md) | 2034.4067304341 | Hard | String, enumerate |
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  |  | dp |
+| [228. Summary Ranges](./leetcode/228.%20Summary%20Ranges.md) |  | Easy | implementation |
 | [2824. 统计和小于目标的下标对数目](./leetcode/2824.%20统计和小于目标的下标对数目.md) | 1165.8838207286 | Easy | Binary Search |
 | [2960. Count Tested Devices After Test Operations](./leetcode/2960.%20Count%20Tested%20Devices%20After%20Test%20Operations.md) | 1169.4209117977 |  | implementation |
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |

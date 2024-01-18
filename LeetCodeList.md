@@ -17,6 +17,7 @@
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |
+| [2171. 拿出最少数目的魔法豆](./leetcode/2171.%20拿出最少数目的魔法豆.md) | 1748.1339100823 |  |  |
 | [2336. 无限集中的最小数字](./leetcode/2336.%20无限集中的最小数字.md) | 1375.0376362104 | Medium | Set |
 | [162. 寻找峰值](./leetcode/162.%20寻找峰值.md) |  |  |  |
 | [661. Image Smoother](./leetcode/661.%20Image%20Smoother.md) |  |  | matrix, bit manipulation |
@@ -36,6 +37,7 @@
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |
 | [39. Combination Sum](./leetcode/39.%20Combination%20Sum.md) |  | Medium | Backtracking, DFS |
 | [2938. 区分黑球与白球](./leetcode/2938.%20区分黑球与白球.md) | 1422.7125559974 | Medium | Greedy |
+| [70. Climbing Stairs](./leetcode/70.%20Climbing%20Stairs.md) |  |  | dp, memoriation |
 | [139. Word Break](./leetcode/139.%20Word%20Break.md) |  |  | dp, string, backpack |
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
 | [907. 子数组的最小值之和](./leetcode/907.%20子数组的最小值之和.md) | 1975.5726300727 | Medium | 贡献法, Stack, Array, 單調棧 |

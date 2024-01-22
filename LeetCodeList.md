@@ -53,10 +53,12 @@
 | [712. Minimum ASCII Delete Sum for Two Strings](./leetcode/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.md) |  | Medium | String, dp |
 | [1657. 确定两个字符串是否接近](./leetcode/1657.%20确定两个字符串是否接近.md) | 1530.4652027753 | Medium | String |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
+| [300. Longest Increasing Subsequence](./leetcode/300.%20Longest%20Increasing%20Subsequence.md) |  | Medium | longest-increasing-subsequences, dp |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](./leetcode/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.md) | 1486.764933431 |  | implementation |
 | [867. Transpose Matrix](./leetcode/867.%20Transpose%20Matrix.md) | 1258.8401788462 |  | implementation |
 | [872. Leaf-Similar Trees](./leetcode/872.%20Leaf-Similar%20Trees.md) | 1287.8970301681 | Easy | String, dp |
 | [2487. 从链表中移除节点](./leetcode/2487.%20从链表中移除节点.md) | 1454.5942017003 |  |  |
+| [670. 最大交换](./leetcode/670.%20最大交换.md) |  | Medium | string |
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
 | [120. Triangle](./leetcode/120.%20Triangle.md) |  |  | dp, paths, reverse |

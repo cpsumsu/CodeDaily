@@ -16,6 +16,7 @@
 | [2809. 使数组和小于等于 x 的最少时间](./leetcode/2809.%20使数组和小于等于%20x%20的最少时间.md) | 2978.7961959355 | Hard | 0-1 backpack |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./leetcode/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md) | 1330.918577828 |  | implementation |
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
+| [2765. 最长交替子数组](./leetcode/2765.%20最长交替子数组.md) | 1580.9748095835 | Easy | Array |
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |
 | [2171. 拿出最少数目的魔法豆](./leetcode/2171.%20拿出最少数目的魔法豆.md) | 1748.1339100823 |  |  |

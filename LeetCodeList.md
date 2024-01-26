@@ -87,4 +87,5 @@
 | [100133. 购买水果需要的最少金币数](./leetcode/100133.%20购买水果需要的最少金币数.md) |  | Medium | DP |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
 | [39. Combination Sum](./leetcode/39.%20Combination%20Sum.md) |  | Medium | Backtracking, DFS |
+| [2846. 边权重均等查询](./leetcode/2846.%20边权重均等查询.md) | 2507.9960044659 | Hard | LCA |
 | [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |

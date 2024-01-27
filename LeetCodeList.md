@@ -21,6 +21,7 @@
 | [2824. 统计和小于目标的下标对数目](./leetcode/2824.%20统计和小于目标的下标对数目.md) | 1165.8838207286 | Easy | Binary Search |
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
+| [2861. 最大合金数](./leetcode/2861.%20最大合金数.md) | 1981.3072959787 |  |  |
 | [606. Construct String from Binary Tree](./leetcode/606.%20Construct%20String%20from%20Binary%20Tree.md) |  |  | implementation |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |

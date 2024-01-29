@@ -82,6 +82,7 @@
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 |  | implementation |
 | [2645. 构造有效字符串的最少插入数](./leetcode/2645.%20构造有效字符串的最少插入数.md) | 1477.7669322402 | Medium | Greedy |
+| [514. 自由之路](./leetcode/514.%20自由之路.md) |  | Hard | dp |
 | [162. 寻找峰值](./leetcode/162.%20寻找峰值.md) |  |  |  |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./leetcode/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md) | 1330.918577828 |  | implementation |
 | [2304. 网格中的最小路径代价](./leetcode/2304.%20网格中的最小路径代价.md) | 1658.3530344788 | Medium | Dp |

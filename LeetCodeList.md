@@ -9,6 +9,7 @@
 | [1239. Maximum Length of a Concatenated String with Unique Characters](./leetcode/1239.%20Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.md) | 1719.945199874 |  | data structure, binary |
 | [150. Evaluate Reverse Polish Notation](./leetcode/150.%20Evaluate%20Reverse%20Polish%20Notation.md) |  |  | implementation, notation |
 | [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |
+| [2670. 找出不同元素数目差数组](./leetcode/2670.%20找出不同元素数目差数组.md) | 1266.5231114343 | Easy | unordered set |
 | [2809. 使数组和小于等于 x 的最少时间](./leetcode/2809.%20使数组和小于等于%20x%20的最少时间.md) | 2978.7961959355 | Hard | 0-1 backpack |
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |
 | [62. Unique Paths](./leetcode/62.%20Unique%20Paths.md) |  |  | dp, paths, math |
@@ -73,6 +74,7 @@
 | [907. 子数组的最小值之和](./leetcode/907.%20子数组的最小值之和.md) | 1975.5726300727 | Medium | 贡献法, Stack, Array, 單調棧 |
 | [661. Image Smoother](./leetcode/661.%20Image%20Smoother.md) |  |  | matrix, bit manipulation |
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
+| [462. 最小操作次数使数组元素相等 II](./leetcode/462.%20最小操作次数使数组元素相等%20II.md) |  | Medium | Array |
 | [872. Leaf-Similar Trees](./leetcode/872.%20Leaf-Similar%20Trees.md) | 1287.8970301681 | Easy | String, dp |
 | [746. 使用最小花费爬楼梯](./leetcode/746.%20使用最小花费爬楼梯.md) | 1358.3561730566 | easy | dp |
 | [2171. 拿出最少数目的魔法豆](./leetcode/2171.%20拿出最少数目的魔法豆.md) | 1748.1339100823 |  |  |

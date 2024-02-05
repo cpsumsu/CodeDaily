@@ -9,7 +9,7 @@ tags: ["構造"]
 > 原本是想找規律的，但是暴力模擬就過了
 
 # Code
-```C++ []
+```c++
 #include <iostream>
 #include <algorithm>
 #include <vector>

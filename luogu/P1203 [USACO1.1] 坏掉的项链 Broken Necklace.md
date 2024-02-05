@@ -17,7 +17,7 @@ tags: ["三指針"]
   
 
 # Code
-```C++ []
+```c++
 #include <iostream>
 #include <algorithm>
 #include <vector>

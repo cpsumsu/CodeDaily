@@ -51,11 +51,13 @@
 | [83. 删除排序链表中的重复元素](./leetcode/83.%20删除排序链表中的重复元素.md) |  | Easy | linked list |
 | [1727. Largest Submatrix With Rearrangements](./leetcode/1727.%20Largest%20Submatrix%20With%20Rearrangements.md) | 1926.7059583253 |  | sorting, greedy |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./leetcode/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md) | 1330.918577828 |  | implementation |
+| [1696. 跳跃游戏 VI](./leetcode/1696.%20跳跃游戏%20VI.md) | 1954.2533254344 | Medium | dp, deque |
 | [2960. Count Tested Devices After Test Operations](./leetcode/2960.%20Count%20Tested%20Devices%20After%20Test%20Operations.md) | 1169.4209117977 |  | implementation |
 | [337. 打家劫舍 III](./leetcode/337.%20打家劫舍%20III.md) |  | Medium | DFS, Tree DP |
 | [82. 删除排序链表中的重复元素 II](./leetcode/82.%20删除排序链表中的重复元素%20II.md) |  |  |  |
 | [2840. Check if Strings Can be Made Equal With Operations II](./leetcode/2840.%20Check%20if%20Strings%20Can%20be%20Made%20Equal%20With%20Operations%20II.md) | 1486.2147876747 |  | dp |
 | [5. Longest Palindromic Substring](./leetcode/5.%20Longest%20Palindromic%20Substring.md) |  | Medium | String, dp, Manacher |
+| [387. First Unique Character in a String](./leetcode/387.%20First%20Unique%20Character%20in%20a%20String.md) |  |  | implementation |
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
 | [1685. Sum of Absolute Differences in a Sorted Array](./leetcode/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md) | 1495.715740828 |  | dp |
 | [139. Word Break](./leetcode/139.%20Word%20Break.md) |  |  | dp, string, backpack |

@@ -15,7 +15,7 @@
 | [62. Unique Paths](./leetcode/62.%20Unique%20Paths.md) |  |  | dp, paths, math |
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
-| [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 |  |  |
+| [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 | Hard | Monotonic Stack |
 | [935. 骑士拨号器](./leetcode/935.%20骑士拨号器.md) | 1690.1655236843 | Medium | dp |
 | [2646. 最小化旅行的价格总和](./leetcode/2646.%20最小化旅行的价格总和.md) | 2238.2830745228 | Hard | DFS |
 | [2645. 构造有效字符串的最少插入数](./leetcode/2645.%20构造有效字符串的最少插入数.md) | 1477.7669322402 | Medium | Greedy |
@@ -28,6 +28,7 @@
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
 | [2304. 网格中的最小路径代价](./leetcode/2304.%20网格中的最小路径代价.md) | 1658.3530344788 | Medium | Dp |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](./leetcode/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.md) | 1486.764933431 |  | implementation |
+| [1686. 石子游戏 VI](./leetcode/1686.%20石子游戏%20VI.md) | 2000.8441804448 | Medium | Greedy |
 | [2861. 最大合金数](./leetcode/2861.%20最大合金数.md) | 1981.3072959787 |  |  |
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |
 | [606. Construct String from Binary Tree](./leetcode/606.%20Construct%20String%20from%20Binary%20Tree.md) |  |  | implementation |
@@ -84,7 +85,7 @@
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  |  | dp |
 | [120. Triangle](./leetcode/120.%20Triangle.md) |  |  | dp, paths, reverse |
 | [514. 自由之路](./leetcode/514.%20自由之路.md) |  | Hard | dp |
-| [1671. 得到山形数组的最少删除次数](./leetcode/1671.%20得到山形数组的最少删除次数.md) | 1912.8455659711 |  |  |
+| [1671. 得到山形数组的最少删除次数](./leetcode/1671.%20得到山形数组的最少删除次数.md) | 1912.8455659711 | Hard | Greedy, binary search |
 | [2765. 最长交替子数组](./leetcode/2765.%20最长交替子数组.md) | 1580.9748095835 | Easy | Array |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
 | [516. Longest Palindromic Subsequence](./leetcode/516.%20Longest%20Palindromic%20Subsequence.md) |  |  | dp |

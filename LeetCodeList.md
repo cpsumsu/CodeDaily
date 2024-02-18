@@ -48,6 +48,7 @@
 | [387. First Unique Character in a String](./leetcode/387.%20First%20Unique%20Character%20in%20a%20String.md) |  |  | implementation |
 | [1038. 从二叉搜索树到更大和树](./leetcode/1038.%20从二叉搜索树到更大和树.md) | 1374.6755455786 | Medium | dfs |
 | [2865. 美丽塔 I](./leetcode/2865.%20美丽塔%20I.md) | 1519.2070276362 | Medium | 枚舉 |
+| [589. N 叉树的前序遍历](./leetcode/589.%20N%20叉树的前序遍历.md) |  | Easy | bfs |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
 | [746. 使用最小花费爬楼梯](./leetcode/746.%20使用最小花费爬楼梯.md) | 1358.3561730566 | easy | dp |
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |

@@ -78,6 +78,7 @@
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
 | [2859. 计算 K 置位下标对应元素的和](./leetcode/2859.%20计算%20K%20置位下标对应元素的和.md) | 1218.1083231462 | Easy | 枚舉 |
 | [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |
+| [105. 从前序与中序遍历序列构造二叉树](./leetcode/105.%20从前序与中序遍历序列构造二叉树.md) |  | Medium | 分治法 |
 | [2661. 找出叠涂元素](./leetcode/2661.%20找出叠涂元素.md) | 1502.6623568929 | Medium | Hash Map |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |
 | [94. Binary Tree Inorder Traversal](./leetcode/94.%20Binary%20Tree%20Inorder%20Traversal.md) |  |  | binary tree |

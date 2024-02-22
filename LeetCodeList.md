@@ -95,6 +95,7 @@
 | [2216. 美化数组的最少删除数](./leetcode/2216.%20美化数组的最少删除数.md) | 1509.5562928491 | Medium | Greedy |
 | [867. Transpose Matrix](./leetcode/867.%20Transpose%20Matrix.md) | 1258.8401788462 |  | implementation |
 | [1686. 石子游戏 VI](./leetcode/1686.%20石子游戏%20VI.md) | 2000.8441804448 | Medium | Greedy |
+| [889. 根据前序和后序遍历构造二叉树](./leetcode/889.%20根据前序和后序遍历构造二叉树.md) | 1731.5555445321 | Medium | 分治法 |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](./leetcode/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.md) | 1486.764933431 |  | implementation |
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
 | [5. Longest Palindromic Substring](./leetcode/5.%20Longest%20Palindromic%20Substring.md) |  | Medium | String, dp, Manacher |

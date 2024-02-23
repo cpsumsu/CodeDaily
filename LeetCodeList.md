@@ -25,6 +25,7 @@
 | [162. 寻找峰值](./leetcode/162.%20寻找峰值.md) |  |  |  |
 | [1727. Largest Submatrix With Rearrangements](./leetcode/1727.%20Largest%20Submatrix%20With%20Rearrangements.md) | 1926.7059583253 |  | sorting, greedy |
 | [1457. 二叉树中的伪回文路径](./leetcode/1457.%20二叉树中的伪回文路径.md) | 1405.0021415178 | Medium | DFS, 回溯 |
+| [2583. 二叉树中的第 K 大层和](./leetcode/2583.%20二叉树中的第%20K%20大层和.md) | 1374.3527967199 | Medium | BFS |
 | [1094. 拼车](./leetcode/1094.%20拼车.md) | 1441.4290319373 | Medium | difference array |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./leetcode/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md) | 1330.918577828 |  | implementation |
 | [2861. 最大合金数](./leetcode/2861.%20最大合金数.md) | 1981.3072959787 |  |  |
@@ -70,7 +71,7 @@
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  |  | dp |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](./leetcode/1239.%20Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.md) | 1719.945199874 |  | data structure, binary |
 | [100121. 查找包含给定字符的单词](./leetcode/100121.%20查找包含给定字符的单词.md) |  | Easy | 枚舉 |
-| [2487. 从链表中移除节点](./leetcode/2487.%20从链表中移除节点.md) | 1454.5942017003 |  |  |
+| [2487. 从链表中移除节点](./leetcode/2487.%20从链表中移除节点.md) | 1454.5942017003 | Medium | Linked list |
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
 | [228. Summary Ranges](./leetcode/228.%20Summary%20Ranges.md) |  | Easy | implementation |
 | [606. Construct String from Binary Tree](./leetcode/606.%20Construct%20String%20from%20Binary%20Tree.md) |  |  | implementation |

@@ -7,6 +7,7 @@
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
 | [1704. Determine if String Halves Are Alike](./leetcode/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.md) | 1207.7224406285 | Easy | implementation |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
+| [2476. 二叉搜索树最近节点查询](./leetcode/2476.%20二叉搜索树最近节点查询.md) | 1596.9852244916 | Medium | dfs |
 | [83. 删除排序链表中的重复元素](./leetcode/83.%20删除排序链表中的重复元素.md) |  | Easy | linked list |
 | [39. Combination Sum](./leetcode/39.%20Combination%20Sum.md) |  | Medium | Backtracking, DFS |
 | [100138. 最大化网格图中正方形空洞的面积](./leetcode/100138.%20最大化网格图中正方形空洞的面积.md) |  | Medium | Greedy |

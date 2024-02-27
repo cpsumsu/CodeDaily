@@ -3,6 +3,7 @@
 | Question | Rating | Difficulty | Tags |
 |---|---|---|---|
 | [462. 最小操作次数使数组元素相等 II](./leetcode/462.%20最小操作次数使数组元素相等%20II.md) |  | Medium | Array |
+| [938. 二叉搜索树的范围和](./leetcode/938.%20二叉搜索树的范围和.md) | 1335.0295688697 | Easy | tree |
 | [1671. 得到山形数组的最少删除次数](./leetcode/1671.%20得到山形数组的最少删除次数.md) | 1912.8455659711 | Hard | Greedy, binary search |
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
 | [1704. Determine if String Halves Are Alike](./leetcode/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.md) | 1207.7224406285 | Easy | implementation |

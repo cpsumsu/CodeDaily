@@ -34,6 +34,7 @@
 | [274. H-Index](./leetcode/274.%20H-Index.md) |  | Medium | implementation |
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [100133. 购买水果需要的最少金币数](./leetcode/100133.%20购买水果需要的最少金币数.md) |  | Medium | DP |
+| [2867. 统计树中的合法路径数目](./leetcode/2867.%20统计树中的合法路径数目.md) | 2428.3242593838 | Hard | DFS |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [590. N 叉树的后序遍历](./leetcode/590.%20N%20叉树的后序遍历.md) |  | Easy | stack |
 | [661. Image Smoother](./leetcode/661.%20Image%20Smoother.md) |  |  | matrix, bit manipulation |

@@ -80,6 +80,7 @@
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
 | [228. Summary Ranges](./leetcode/228.%20Summary%20Ranges.md) |  | Easy | implementation |
 | [606. Construct String from Binary Tree](./leetcode/606.%20Construct%20String%20from%20Binary%20Tree.md) |  |  | implementation |
+| [2369. 检查数组是否存在有效划分](./leetcode/2369.%20检查数组是否存在有效划分.md) | 1779.7001728541 | Medium | dp |
 | [2824. 统计和小于目标的下标对数目](./leetcode/2824.%20统计和小于目标的下标对数目.md) | 1165.8838207286 | Easy | Binary Search |
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
 | [2859. 计算 K 置位下标对应元素的和](./leetcode/2859.%20计算%20K%20置位下标对应元素的和.md) | 1218.1083231462 | Easy | 枚舉 |

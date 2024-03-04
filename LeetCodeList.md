@@ -25,7 +25,7 @@
 | [221. Maximal Square](./leetcode/221.%20Maximal%20Square.md) |  | Medium | dp, array, matrix |
 | [2581. 统计可能的树根数目](./leetcode/2581.%20统计可能的树根数目.md) | 2228.3454693625 | Hard | Tree |
 | [2645. 构造有效字符串的最少插入数](./leetcode/2645.%20构造有效字符串的最少插入数.md) | 1477.7669322402 | Medium | Greedy |
-| [162. 寻找峰值](./leetcode/162.%20寻找峰值.md) |  |  |  |
+| [162. 寻找峰值](./leetcode/162.%20寻找峰值.md) |  | Medium | Binary Search |
 | [1727. Largest Submatrix With Rearrangements](./leetcode/1727.%20Largest%20Submatrix%20With%20Rearrangements.md) | 1926.7059583253 |  | sorting, greedy |
 | [1457. 二叉树中的伪回文路径](./leetcode/1457.%20二叉树中的伪回文路径.md) | 1405.0021415178 | Medium | DFS, 回溯 |
 | [2583. 二叉树中的第 K 大层和](./leetcode/2583.%20二叉树中的第%20K%20大层和.md) | 1374.3527967199 | Medium | BFS |
@@ -62,6 +62,7 @@
 | [120. Triangle](./leetcode/120.%20Triangle.md) |  |  | dp, paths, reverse |
 | [82. 删除排序链表中的重复元素 II](./leetcode/82.%20删除排序链表中的重复元素%20II.md) |  |  |  |
 | [11. 盛最多水的容器](./leetcode/11.%20盛最多水的容器.md) |  | Medium | 雙指針 |
+| [225. 用队列实现栈](./leetcode/225.%20用队列实现栈.md) |  | Easy | Queue |
 | [2670. 找出不同元素数目差数组](./leetcode/2670.%20找出不同元素数目差数组.md) | 1266.5231114343 | Easy | unordered set |
 | [670. 最大交换](./leetcode/670.%20最大交换.md) |  | Medium | string |
 | [70. Climbing Stairs](./leetcode/70.%20Climbing%20Stairs.md) |  |  | dp, memoriation |

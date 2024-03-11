@@ -11,9 +11,12 @@
 | [120. Triangle](./leetcode/120.%20Triangle.md) |  |  | dp, paths, reverse |
 | [670. 最大交换](./leetcode/670.%20最大交换.md) |  | Medium | string |
 | [39. Combination Sum](./leetcode/39.%20Combination%20Sum.md) |  | Medium | Backtracking, DFS |
+| [687. 最长同值路径](./leetcode/687.%20最长同值路径.md) |  | Medium | 樹形dp |
 | [713. 乘积小于 K 的子数组](./leetcode/713.%20乘积小于%20K%20的子数组.md) |  | Medium | 雙指針 |
 | [2824. 统计和小于目标的下标对数目](./leetcode/2824.%20统计和小于目标的下标对数目.md) | 1165.8838207286 | Easy | Binary Search |
 | [516. 最长回文子序列](./leetcode/516.%20最长回文子序列.md) |  | Medium | dp |
+| [2538. 最大价值和与最小价值和的差值](./leetcode/2538.%20最大价值和与最小价值和的差值.md) | 2397.9722495587 | Hard | 樹形dp |
+| [1312. 让字符串成为回文串的最少插入次数](./leetcode/1312.%20让字符串成为回文串的最少插入次数.md) | 1786.688543054 | Hard | dp |
 | [1004. 最大连续1的个数 III](./leetcode/1004.%20最大连续1的个数%20III.md) | 1655.6433885989 | Medium | 雙指針 |
 | [1685. Sum of Absolute Differences in a Sorted Array](./leetcode/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md) | 1495.715740828 |  | dp |
 | [225. 用队列实现栈](./leetcode/225.%20用队列实现栈.md) |  | Easy | Queue |
@@ -44,7 +47,9 @@
 | [3. 无重复字符的最长子串](./leetcode/3.%20无重复字符的最长子串.md) |  | Medium | 雙指針 |
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
 | [867. Transpose Matrix](./leetcode/867.%20Transpose%20Matrix.md) | 1258.8401788462 |  | implementation |
+| [968. 监控二叉树](./leetcode/968.%20监控二叉树.md) | 2124.1329592058 | Hard | 樹形dp, 最小支配集 |
 | [1637. Widest Vertical Area Between Two Points Containing No Points](./leetcode/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.md) | 1486.764933431 |  | implementation |
+| [124. 二叉树中的最大路径和](./leetcode/124.%20二叉树中的最大路径和.md) |  | Hard | 樹形dp |
 | [2859. 计算 K 置位下标对应元素的和](./leetcode/2859.%20计算%20K%20置位下标对应元素的和.md) | 1218.1083231462 | Easy | 枚舉 |
 | [5. Longest Palindromic Substring](./leetcode/5.%20Longest%20Palindromic%20Substring.md) |  | Medium | String, dp, Manacher |
 | [17. Letter Combinations of a Phone Number](./leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md) |  | Medium | Constructive algorithm |
@@ -110,6 +115,7 @@
 | [2865. 美丽塔 I](./leetcode/2865.%20美丽塔%20I.md) | 1519.2070276362 | Medium | 枚舉 |
 | [62. Unique Paths](./leetcode/62.%20Unique%20Paths.md) |  |  | dp, paths, math |
 | [907. 子数组的最小值之和](./leetcode/907.%20子数组的最小值之和.md) | 1975.5726300727 | Medium | 贡献法, Stack, Array, 單調棧 |
+| [2246. 相邻字符不同的最长路径](./leetcode/2246.%20相邻字符不同的最长路径.md) | 2126.3922279277 | Hard | 樹形dp |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |
 | [746. 使用最小花费爬楼梯](./leetcode/746.%20使用最小花费爬楼梯.md) | 1358.3561730566 | easy | dp |
 | [82. 删除排序链表中的重复元素 II](./leetcode/82.%20删除排序链表中的重复元素%20II.md) |  |  |  |

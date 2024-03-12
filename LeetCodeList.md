@@ -19,6 +19,7 @@
 | [1312. 让字符串成为回文串的最少插入次数](./leetcode/1312.%20让字符串成为回文串的最少插入次数.md) | 1786.688543054 | Hard | dp |
 | [1004. 最大连续1的个数 III](./leetcode/1004.%20最大连续1的个数%20III.md) | 1655.6433885989 | Medium | 雙指針 |
 | [1685. Sum of Absolute Differences in a Sorted Array](./leetcode/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md) | 1495.715740828 |  | dp |
+| [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
 | [225. 用队列实现栈](./leetcode/225.%20用队列实现栈.md) |  | Easy | Queue |
 | [2938. 区分黑球与白球](./leetcode/2938.%20区分黑球与白球.md) | 1422.7125559974 | Medium | Greedy |
 | [1234. 替换子串得到平衡字符串](./leetcode/1234.%20替换子串得到平衡字符串.md) | 1877.8983358307 | Medium | 雙指針 |
@@ -43,6 +44,7 @@
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  |  |  |
 | [2840. Check if Strings Can be Made Equal With Operations II](./leetcode/2840.%20Check%20if%20Strings%20Can%20be%20Made%20Equal%20With%20Operations%20II.md) | 1486.2147876747 |  | dp |
+| [299. 猜数字游戏](./leetcode/299.%20猜数字游戏.md) |  | Medium | hash map |
 | [387. First Unique Character in a String](./leetcode/387.%20First%20Unique%20Character%20in%20a%20String.md) |  |  | implementation |
 | [3. 无重复字符的最长子串](./leetcode/3.%20无重复字符的最长子串.md) |  | Medium | 雙指針 |
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
@@ -70,6 +72,7 @@
 | [935. 骑士拨号器](./leetcode/935.%20骑士拨号器.md) | 1690.1655236843 | Medium | dp |
 | [2171. 拿出最少数目的魔法豆](./leetcode/2171.%20拿出最少数目的魔法豆.md) | 1748.1339100823 |  |  |
 | [100121. 查找包含给定字符的单词](./leetcode/100121.%20查找包含给定字符的单词.md) |  | Easy | 枚舉 |
+| [2129. 将标题首字母大写](./leetcode/2129.%20将标题首字母大写.md) | 1274.881752217 | Easy | 雙指針 |
 | [516. Longest Palindromic Subsequence](./leetcode/516.%20Longest%20Palindromic%20Subsequence.md) |  |  | dp |
 | [1094. 拼车](./leetcode/1094.%20拼车.md) | 1441.4290319373 | Medium | difference array |
 | [938. 二叉搜索树的范围和](./leetcode/938.%20二叉搜索树的范围和.md) | 1335.0295688697 | Easy | tree |
@@ -125,6 +128,7 @@
 | [2673. 使二叉树所有路径值相等的最小代价](./leetcode/2673.%20使二叉树所有路径值相等的最小代价.md) | 1917.1049672432 |  |  |
 | [2645. 构造有效字符串的最少插入数](./leetcode/2645.%20构造有效字符串的最少插入数.md) | 1477.7669322402 | Medium | Greedy |
 | [11. 盛最多水的容器](./leetcode/11.%20盛最多水的容器.md) |  | Medium | 雙指針 |
+| [2834. 找出美丽数组的最小和](./leetcode/2834.%20找出美丽数组的最小和.md) | 1409.2288385791 | Medium | math |
 | [2765. 最长交替子数组](./leetcode/2765.%20最长交替子数组.md) | 1580.9748095835 | Easy | Array |
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |
 | [15. 三数之和](./leetcode/15.%20三数之和.md) |  | Medium | 三指針 |

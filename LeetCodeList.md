@@ -39,6 +39,7 @@
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  |  | dp |
 | [606. Construct String from Binary Tree](./leetcode/606.%20Construct%20String%20from%20Binary%20Tree.md) |  |  | implementation |
 | [1671. 得到山形数组的最少删除次数](./leetcode/1671.%20得到山形数组的最少删除次数.md) | 1912.8455659711 | Hard | Greedy, binary search |
+| [1372. 二叉树中的最长交错路径](./leetcode/1372.%20二叉树中的最长交错路径.md) | 1713.2768268466 | Medium | dp |
 | [2861. 最大合金数](./leetcode/2861.%20最大合金数.md) | 1981.3072959787 |  |  |
 | [2867. 统计树中的合法路径数目](./leetcode/2867.%20统计树中的合法路径数目.md) | 2428.3242593838 | Hard | DFS |
 | [63. Unique Paths II ](./leetcode/63.%20Unique%20Paths%20II%20.md) |  |  | dp, paths, scroll-list optimisation |
@@ -106,7 +107,9 @@
 | [1239. Maximum Length of a Concatenated String with Unique Characters](./leetcode/1239.%20Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.md) | 1719.945199874 |  | data structure, binary |
 | [2581. 统计可能的树根数目](./leetcode/2581.%20统计可能的树根数目.md) | 2228.3454693625 | Hard | Tree |
 | [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |
+| [419. 甲板上的战舰](./leetcode/419.%20甲板上的战舰.md) |  | Medium | DFS |
 | [100133. 购买水果需要的最少金币数](./leetcode/100133.%20购买水果需要的最少金币数.md) |  | Medium | DP |
+| [1261. 在受污染的二叉树中查找元素](./leetcode/1261.%20在受污染的二叉树中查找元素.md) | 1439.5656079032 | Medium | 哈希表 |
 | [2085. 统计出现过一次的公共字符串](./leetcode/2085.%20统计出现过一次的公共字符串.md) | 1307.4608905199 | Easy | hash map |
 | [661. Image Smoother](./leetcode/661.%20Image%20Smoother.md) |  |  | matrix, bit manipulation |
 | [2960. Count Tested Devices After Test Operations](./leetcode/2960.%20Count%20Tested%20Devices%20After%20Test%20Operations.md) | 1169.4209117977 |  | implementation |

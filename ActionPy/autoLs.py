@@ -19,6 +19,8 @@ def LC_generate_markdown_file(directory, output_file):
         f.write("| Question | Rating | Difficulty | Tags |\n")
         f.write("|---|---|---|---|\n")
 
+        results = []
+
         for root, dirs, files in os.walk(directory):
             for file in files:
                 file_path = os.path.join(root, file)
@@ -48,9 +50,12 @@ def LC_generate_markdown_file(directory, output_file):
                 Rating_name = "" if Rating == 0 else f"{str(Rating)}"
 
                 relative_path = relative_path.replace(" ", "%20")
-                markdown_link = f"[{file_name}]({directory}/{relative_path})"
-                result = f"| {markdown_link} | {Rating_name} | {Dif_name} | {tags_name} |\n"
-                f.write(f"{result}")
+                results.append(f"| [{file_name}]({directory}/{relative_path}) | {Rating_name} | {Dif_name} | {tags_name} |\n")
+        
+        results.sort()
+
+        for res in results:
+            f.write(f"{res}")
 
     print(f"Markdown file generated: {output_file}")
 
@@ -60,6 +65,8 @@ def LG_generate_markdown_file(directory, output_file):
         f.write("| Question | Difficulty | Tags |\n")
         f.write("|---|---|---|\n")
 
+        results = []
+
         for root, dirs, files in os.walk(directory):
             for file in files:
                 file_path = os.path.join(root, file)
@@ -76,8 +83,12 @@ def LG_generate_markdown_file(directory, output_file):
 
                 relative_path = relative_path.replace(" ", "%20")
                 markdown_link = f"[{file_name}]({directory}/{relative_path})"
-                result = f"| {markdown_link} | {Dif_name} | {tags_name} |\n"
-                f.write(f"{result}")
+                results.append(f"| [{file_name}]({directory}/{relative_path}) | {Dif_name} | {tags_name} |\n")
+        
+        results.sort()
+
+        for res in results:
+            f.write(f"{res}")
 
     print(f"Markdown file generated: {output_file}")
 
@@ -87,6 +98,8 @@ def PA_generate_markdown_file(directory, output_file):
         f.write("| Question | Difficulty | Tags |\n")
         f.write("|---|---|---|\n")
 
+        results = []
+
         for root, dirs, files in os.walk(directory):
             for file in files:
                 file_path = os.path.join(root, file)
@@ -102,9 +115,12 @@ def PA_generate_markdown_file(directory, output_file):
                 tags_name = "" if tags == [] else ', '.join(str(t) for t in tags)
 
                 relative_path = relative_path.replace(" ", "%20")
-                markdown_link = f"[{file_name}]({directory}/{relative_path})"
-                result = f"| {markdown_link} | {Dif_name} | {tags_name} |\n"
-                f.write(f"{result}")
+                results.append(f"| [{file_name}]({directory}/{relative_path}) | {Dif_name} | {tags_name} |\n")
+
+        results.sort()
+
+        for res in results:        
+            f.write(f"{res}")
 
     print(f"Markdown file generated: {output_file}")
 

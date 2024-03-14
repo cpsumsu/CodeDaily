@@ -77,6 +77,7 @@
 | [2707. 字符串中的额外字符](./leetcode/2707.%20字符串中的额外字符.md) | 1735.8505509901 | Medium | Hash Map, dp |
 | [274. H-Index](./leetcode/274.%20H-Index.md) |  | Medium | implementation |
 | [2765. 最长交替子数组](./leetcode/2765.%20最长交替子数组.md) | 1580.9748095835 | Easy | Array |
+| [2789. 合并后数组中的最大元素](./leetcode/2789.%20合并后数组中的最大元素.md) | 1484.8385256564 | Medium | Greedy |
 | [2807. 在链表中插入最大公约数](./leetcode/2807.%20在链表中插入最大公约数.md) | 1279.0301521682 | Medium | Linked List |
 | [2809. 使数组和小于等于 x 的最少时间](./leetcode/2809.%20使数组和小于等于%20x%20的最少时间.md) | 2978.7961959355 | Hard | 0-1 backpack |
 | [2824. 统计和小于目标的下标对数目](./leetcode/2824.%20统计和小于目标的下标对数目.md) | 1165.8838207286 | Easy | Binary Search |

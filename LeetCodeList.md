@@ -56,6 +56,7 @@
 | [225. 用队列实现栈](./leetcode/225.%20用队列实现栈.md) |  | Easy | Queue |
 | [228. Summary Ranges](./leetcode/228.%20Summary%20Ranges.md) |  | Easy | implementation |
 | [2304. 网格中的最小路径代价](./leetcode/2304.%20网格中的最小路径代价.md) | 1658.3530344788 | Medium | Dp |
+| [2312. 卖木头块](./leetcode/2312.%20卖木头块.md) | 2363.0240184484 | Hard | Dp |
 | [232. 用栈实现队列](./leetcode/232.%20用栈实现队列.md) |  | Easy | Stack |
 | [2336. 无限集中的最小数字](./leetcode/2336.%20无限集中的最小数字.md) | 1375.0376362104 | Medium | Set |
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |

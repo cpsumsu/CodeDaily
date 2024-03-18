@@ -1,7 +1,7 @@
 name: Update Newest List of Leecode Problems
 on: 
   schedule:
-    - cron: "00 19 * * *"    #runs at 19:00 UTC everyday
+    - cron: "00 19 * * 1"    #run every week on Mondays at 19:00 UTC
 
 jobs:
   get-num-square:

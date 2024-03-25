@@ -41,10 +41,12 @@
 | [17. Letter Combinations of a Phone Number](./leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.md) |  | Medium | Constructive algorithm |
 | [1704. Determine if String Halves Are Alike](./leetcode/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.md) | 1207.7224406285 | Easy | implementation |
 | [1727. Largest Submatrix With Rearrangements](./leetcode/1727.%20Largest%20Submatrix%20With%20Rearrangements.md) | 1926.7059583253 |  | sorting, greedy |
+| [1793. 好子数组的最大分数](./leetcode/1793.%20好子数组的最大分数.md) | 1945.7515607928 | Hard | 雙指針 |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 | Hard | Monotonic Stack |
+| [1969. 数组元素的最小非零乘积](./leetcode/1969.%20数组元素的最小非零乘积.md) | 1966.7067914206 | Medium | math |
 | [2085. 统计出现过一次的公共字符串](./leetcode/2085.%20统计出现过一次的公共字符串.md) | 1307.4608905199 | Easy | hash map |
 | [209. 长度最小的子数组](./leetcode/209.%20长度最小的子数组.md) |  | Medium | 滑動窗口 |
 | [2129. 将标题首字母大写](./leetcode/2129.%20将标题首字母大写.md) | 1274.881752217 | Easy | 雙指針 |
@@ -68,11 +70,13 @@
 | [2575. 找出字符串的可整除数组](./leetcode/2575.%20找出字符串的可整除数组.md) | 1541.3741526845 | Medium | math |
 | [2581. 统计可能的树根数目](./leetcode/2581.%20统计可能的树根数目.md) | 2228.3454693625 | Hard | Tree |
 | [2583. 二叉树中的第 K 大层和](./leetcode/2583.%20二叉树中的第%20K%20大层和.md) | 1374.3527967199 | Medium | BFS |
+| [2617. 网格图中最少访问的格子数](./leetcode/2617.%20网格图中最少访问的格子数.md) | 2581.9961985753 | Hard | dp, 最小堆 |
 | [264. Ugly Number II](./leetcode/264.%20Ugly%20Number%20II.md) |  | Medium | dp, math |
 | [2645. 构造有效字符串的最少插入数](./leetcode/2645.%20构造有效字符串的最少插入数.md) | 1477.7669322402 | Medium | Greedy |
 | [2646. 最小化旅行的价格总和](./leetcode/2646.%20最小化旅行的价格总和.md) | 2238.2830745228 | Hard | DFS |
 | [2661. 找出叠涂元素](./leetcode/2661.%20找出叠涂元素.md) | 1502.6623568929 | Medium | Hash Map |
 | [2670. 找出不同元素数目差数组](./leetcode/2670.%20找出不同元素数目差数组.md) | 1266.5231114343 | Easy | unordered set |
+| [2671. 频率跟踪器](./leetcode/2671.%20频率跟踪器.md) | 1509.6237874441 | Medium | unordered map |
 | [2673. 使二叉树所有路径值相等的最小代价](./leetcode/2673.%20使二叉树所有路径值相等的最小代价.md) | 1917.1049672432 |  |  |
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |
 | [2707. 字符串中的额外字符](./leetcode/2707.%20字符串中的额外字符.md) | 1735.8505509901 | Medium | Hash Map, dp |
@@ -98,6 +102,9 @@
 | [3. 无重复字符的最长子串](./leetcode/3.%20无重复字符的最长子串.md) |  | Medium | 雙指針 |
 | [300. Longest Increasing Subsequence](./leetcode/300.%20Longest%20Increasing%20Subsequence.md) |  | Medium | longest-increasing-subsequences, dp |
 | [303. 区域和检索 - 数组不可变](./leetcode/303.%20区域和检索%20-%20数组不可变.md) |  | Easy | array |
+| [3083. 字符串及其反转中是否存在同一子字符串](./leetcode/3083.%20字符串及其反转中是否存在同一子字符串.md) |  | Easy | 哈希表 |
+| [3084. 统计以给定字符开头和结尾的子字符串总数](./leetcode/3084.%20统计以给定字符开头和结尾的子字符串总数.md) |  | Medium | math |
+| [3085. 成为 K 特殊字符串需要删除的最少字符数](./leetcode/3085.%20成为%20K%20特殊字符串需要删除的最少字符数.md) |  | Medium | 枚舉 |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
 | [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  |  |  |
@@ -109,11 +116,12 @@
 | [419. 甲板上的战舰](./leetcode/419.%20甲板上的战舰.md) |  | Medium | DFS |
 | [42. 接雨水](./leetcode/42.%20接雨水.md) |  | Hard | Greedy |
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
-| [462. 最小操作次数使数组元素相等 II](./leetcode/462.%20最小操作次数使数组元素相等%20II.md) |  | Medium | Array |
+| [462. 最小操作次数使数组元素相等 II](./leetcode/462.%20最小操作次数使数组元素相等%20II.md) |  | Medium | 中位數貪心 |
 | [5. Longest Palindromic Substring](./leetcode/5.%20Longest%20Palindromic%20Substring.md) |  | Medium | String, dp, Manacher |
 | [514. 自由之路](./leetcode/514.%20自由之路.md) |  | Hard | dp |
 | [516. Longest Palindromic Subsequence](./leetcode/516.%20Longest%20Palindromic%20Subsequence.md) |  |  | dp |
 | [516. 最长回文子序列](./leetcode/516.%20最长回文子序列.md) |  | Medium | dp |
+| [518. 零钱兑换 II](./leetcode/518.%20零钱兑换%20II.md) |  | Medium | dp |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
 | [589. N 叉树的前序遍历](./leetcode/589.%20N%20叉树的前序遍历.md) |  | Easy | bfs |
 | [590. N 叉树的后序遍历](./leetcode/590.%20N%20叉树的后序遍历.md) |  | Easy | stack |

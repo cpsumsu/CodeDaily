@@ -6,6 +6,7 @@
 | [100133. 购买水果需要的最少金币数](./leetcode/100133.%20购买水果需要的最少金币数.md) |  | Medium | DP |
 | [100138. 最大化网格图中正方形空洞的面积](./leetcode/100138.%20最大化网格图中正方形空洞的面积.md) |  | Medium | Greedy |
 | [1004. 最大连续1的个数 III](./leetcode/1004.%20最大连续1的个数%20III.md) | 1655.6433885989 | Medium | 雙指針 |
+| [1019. 链表中的下一个更大节点](./leetcode/1019.%20链表中的下一个更大节点.md) | 1570.8347522104 | Medium | 單調棧 |
 | [1038. 从二叉搜索树到更大和树](./leetcode/1038.%20从二叉搜索树到更大和树.md) | 1374.6755455786 | Medium | dfs |
 | [105. 从前序与中序遍历序列构造二叉树](./leetcode/105.%20从前序与中序遍历序列构造二叉树.md) |  | Medium | 分治法 |
 | [1094. 拼车](./leetcode/1094.%20拼车.md) | 1441.4290319373 | Medium | difference array |
@@ -25,6 +26,7 @@
 | [1410. HTML 实体解析器](./leetcode/1410.%20HTML%20实体解析器.md) | 1405.4005354401 | Medium | String |
 | [1423. 可获得的最大点数](./leetcode/1423.%20可获得的最大点数.md) | 1573.824807946 | Medium | implementation |
 | [1457. 二叉树中的伪回文路径](./leetcode/1457.%20二叉树中的伪回文路径.md) | 1405.0021415178 | Medium | DFS, 回溯 |
+| [1475. 商品折扣后的最终价格](./leetcode/1475.%20商品折扣后的最终价格.md) | 1212.2606422181 | Easy | 單調棧 |
 | [15. 三数之和](./leetcode/15.%20三数之和.md) |  | Medium | 三指針 |
 | [150. Evaluate Reverse Polish Notation](./leetcode/150.%20Evaluate%20Reverse%20Polish%20Notation.md) |  |  | implementation, notation |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 |  | implementation |
@@ -47,6 +49,7 @@
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 | Hard | Monotonic Stack |
 | [1969. 数组元素的最小非零乘积](./leetcode/1969.%20数组元素的最小非零乘积.md) | 1966.7067914206 | Medium | math |
+| [1997. 访问完所有房间的第一天](./leetcode/1997.%20访问完所有房间的第一天.md) | 2260.2799775623 | Medium | dp |
 | [2085. 统计出现过一次的公共字符串](./leetcode/2085.%20统计出现过一次的公共字符串.md) | 1307.4608905199 | Easy | hash map |
 | [209. 长度最小的子数组](./leetcode/209.%20长度最小的子数组.md) |  | Medium | 滑動窗口 |
 | [2129. 将标题首字母大写](./leetcode/2129.%20将标题首字母大写.md) | 1274.881752217 | Easy | 雙指針 |
@@ -64,10 +67,12 @@
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |
 | [2369. 检查数组是否存在有效划分](./leetcode/2369.%20检查数组是否存在有效划分.md) | 1779.7001728541 | Medium | dp |
 | [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |
+| [2444. Count Subarrays With Fixed Bounds](./leetcode/2444.%20Count%20Subarrays%20With%20Fixed%20Bounds.md) | 2092.5366031561 |  | slibing window |
 | [2476. 二叉搜索树最近节点查询](./leetcode/2476.%20二叉搜索树最近节点查询.md) | 1596.9852244916 | Medium | dfs |
 | [2487. 从链表中移除节点](./leetcode/2487.%20从链表中移除节点.md) | 1454.5942017003 | Medium | Linked list |
 | [2538. 最大价值和与最小价值和的差值](./leetcode/2538.%20最大价值和与最小价值和的差值.md) | 2397.9722495587 | Hard | 樹形dp |
 | [2575. 找出字符串的可整除数组](./leetcode/2575.%20找出字符串的可整除数组.md) | 1541.3741526845 | Medium | math |
+| [2580. 统计将重叠区间合并成组的方案数](./leetcode/2580.%20统计将重叠区间合并成组的方案数.md) | 1631.5850830561 | Medium | greedy, math |
 | [2581. 统计可能的树根数目](./leetcode/2581.%20统计可能的树根数目.md) | 2228.3454693625 | Hard | Tree |
 | [2583. 二叉树中的第 K 大层和](./leetcode/2583.%20二叉树中的第%20K%20大层和.md) | 1374.3527967199 | Medium | BFS |
 | [2617. 网格图中最少访问的格子数](./leetcode/2617.%20网格图中最少访问的格子数.md) | 2581.9961985753 | Hard | dp, 最小堆 |
@@ -97,7 +102,9 @@
 | [2867. 统计树中的合法路径数目](./leetcode/2867.%20统计树中的合法路径数目.md) | 2428.3242593838 | Hard | DFS |
 | [29. Divide Two Integers](./leetcode/29.%20Divide%20Two%20Integers.md) |  |  | implementation, bit manipulation |
 | [2938. 区分黑球与白球](./leetcode/2938.%20区分黑球与白球.md) | 1422.7125559974 | Medium | Greedy |
+| [2958. Length of Longest Subarray With at Most K Frequency](./leetcode/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.md) | 1535.3680469616 | Medium | Sliding Window |
 | [2960. Count Tested Devices After Test Operations](./leetcode/2960.%20Count%20Tested%20Devices%20After%20Test%20Operations.md) | 1169.4209117977 |  | implementation |
+| [2962. Count Subarrays Where Max Element Appears at Least K Times](./leetcode/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.md) | 1700.8505554268 |  | slibing window |
 | [299. 猜数字游戏](./leetcode/299.%20猜数字游戏.md) |  | Medium | hash map |
 | [3. 无重复字符的最长子串](./leetcode/3.%20无重复字符的最长子串.md) |  | Medium | 雙指針 |
 | [300. Longest Increasing Subsequence](./leetcode/300.%20Longest%20Increasing%20Subsequence.md) |  | Medium | longest-increasing-subsequences, dp |
@@ -105,6 +112,7 @@
 | [3083. 字符串及其反转中是否存在同一子字符串](./leetcode/3083.%20字符串及其反转中是否存在同一子字符串.md) |  | Easy | 哈希表 |
 | [3084. 统计以给定字符开头和结尾的子字符串总数](./leetcode/3084.%20统计以给定字符开头和结尾的子字符串总数.md) |  | Medium | math |
 | [3085. 成为 K 特殊字符串需要删除的最少字符数](./leetcode/3085.%20成为%20K%20特殊字符串需要删除的最少字符数.md) |  | Medium | 枚舉 |
+| [3090. Maximum Length Substring With Two Occurrences](./leetcode/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.md) |  |  | slibing window |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  |  | monotonic stack |
 | [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  |  |  |
@@ -123,6 +131,7 @@
 | [516. 最长回文子序列](./leetcode/516.%20最长回文子序列.md) |  | Medium | dp |
 | [518. 零钱兑换 II](./leetcode/518.%20零钱兑换%20II.md) |  | Medium | dp |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
+| [58. Length of Last Word](./leetcode/58.%20Length%20of%20Last%20Word.md) |  |  | implementation |
 | [589. N 叉树的前序遍历](./leetcode/589.%20N%20叉树的前序遍历.md) |  | Easy | bfs |
 | [590. N 叉树的后序遍历](./leetcode/590.%20N%20叉树的后序遍历.md) |  | Easy | stack |
 | [606. Construct String from Binary Tree](./leetcode/606.%20Construct%20String%20from%20Binary%20Tree.md) |  |  | implementation |
@@ -137,6 +146,7 @@
 | [712. Minimum ASCII Delete Sum for Two Strings](./leetcode/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.md) |  | Medium | String, dp |
 | [713. 乘积小于 K 的子数组](./leetcode/713.%20乘积小于%20K%20的子数组.md) |  | Medium | 雙指針 |
 | [72. Edit Distance](./leetcode/72.%20Edit%20Distance.md) |  | Medium | String, dp |
+| [739. 每日温度](./leetcode/739.%20每日温度.md) |  | Medium | 單調棧 |
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  |  | dp |
 | [746. 使用最小花费爬楼梯](./leetcode/746.%20使用最小花费爬楼梯.md) | 1358.3561730566 | easy | dp |
 | [82. 删除排序链表中的重复元素 II](./leetcode/82.%20删除排序链表中的重复元素%20II.md) |  |  |  |
@@ -151,3 +161,4 @@
 | [938. 二叉搜索树的范围和](./leetcode/938.%20二叉搜索树的范围和.md) | 1335.0295688697 | Easy | tree |
 | [94. Binary Tree Inorder Traversal](./leetcode/94.%20Binary%20Tree%20Inorder%20Traversal.md) |  |  | binary tree |
 | [968. 监控二叉树](./leetcode/968.%20监控二叉树.md) | 2124.1329592058 | Hard | 樹形dp, 最小支配集 |
+| [992. Subarrays with K Different Integers](./leetcode/992.%20Subarrays%20with%20K%20Different%20Integers.md) | 2210.3503183571 |  | slibing window |

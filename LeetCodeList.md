@@ -12,6 +12,7 @@
 | [1026. 节点与其祖先之间的最大差值](./leetcode/1026.%20节点与其祖先之间的最大差值.md) | 1446.4280778775 | Medium | dfs |
 | [1038. 从二叉搜索树到更大和树](./leetcode/1038.%20从二叉搜索树到更大和树.md) | 1374.6755455786 | Medium | dfs |
 | [105. 从前序与中序遍历序列构造二叉树](./leetcode/105.%20从前序与中序遍历序列构造二叉树.md) |  | Medium | 分治法 |
+| [1068. 产品销售分析 I](./leetcode/1068.%20产品销售分析%20I.md) |  | easy | SQL |
 | [1094. 拼车](./leetcode/1094.%20拼车.md) | 1441.4290319373 | Medium | difference array |
 | [11. 盛最多水的容器](./leetcode/11.%20盛最多水的容器.md) |  | Medium | 雙指針 |
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
@@ -44,6 +45,7 @@
 | [167. 两数之和 II - 输入有序数组](./leetcode/167.%20两数之和%20II%20-%20输入有序数组.md) |  | Medium | 雙指针 |
 | [1670. 设计前中后队列](./leetcode/1670.%20设计前中后队列.md) | 1610.1866391145 | Medium | Queue, implementation |
 | [1671. 得到山形数组的最少删除次数](./leetcode/1671.%20得到山形数组的最少删除次数.md) | 1912.8455659711 | Hard | Greedy, binary search |
+| [1683. 无效的推文](./leetcode/1683.%20无效的推文.md) |  | easy | sql |
 | [1685. Sum of Absolute Differences in a Sorted Array](./leetcode/1685.%20Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.md) | 1495.715740828 |  | dp |
 | [1686. 石子游戏 VI](./leetcode/1686.%20石子游戏%20VI.md) | 2000.8441804448 | Medium | Greedy |
 | [1696. 跳跃游戏 VI](./leetcode/1696.%20跳跃游戏%20VI.md) | 1954.2533254344 | Medium | dp, deque |
@@ -51,18 +53,22 @@
 | [1702. 修改后的最大二进制字符串](./leetcode/1702.%20修改后的最大二进制字符串.md) | 1825.4207082682 | Medium | greedy |
 | [1704. Determine if String Halves Are Alike](./leetcode/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.md) | 1207.7224406285 | Easy | implementation |
 | [1727. Largest Submatrix With Rearrangements](./leetcode/1727.%20Largest%20Submatrix%20With%20Rearrangements.md) | 1926.7059583253 |  | sorting, greedy |
+| [1757. 可回收且低脂的产品](./leetcode/1757.%20可回收且低脂的产品.md) |  | easy | sql |
 | [1793. 好子数组的最大分数](./leetcode/1793.%20好子数组的最大分数.md) | 1945.7515607928 | Hard | 雙指針 |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
+| [1883. 准时抵达会议现场的最小跳过休息次数](./leetcode/1883.%20准时抵达会议现场的最小跳过休息次数.md) | 2587.8725248485 | Hard | DFS, DP |
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 | Hard | Monotonic Stack |
 | [1969. 数组元素的最小非零乘积](./leetcode/1969.%20数组元素的最小非零乘积.md) | 1966.7067914206 | Medium | math |
 | [1997. 访问完所有房间的第一天](./leetcode/1997.%20访问完所有房间的第一天.md) | 2260.2799775623 | Medium | dp |
+| [2007. 从双倍数组中还原原数组](./leetcode/2007.%20从双倍数组中还原原数组.md) | 1557.017055582 | Medium | 哈希表 |
 | [2009. 使数组连续的最少操作数](./leetcode/2009.%20使数组连续的最少操作数.md) | 2084.4980206639 | Hard | slibing window |
 | [205. Isomorphic Strings](./leetcode/205.%20Isomorphic%20Strings.md) |  |  | implementation |
 | [2085. 统计出现过一次的公共字符串](./leetcode/2085.%20统计出现过一次的公共字符串.md) | 1307.4608905199 | Easy | hash map |
 | [209. 长度最小的子数组](./leetcode/209.%20长度最小的子数组.md) |  | Medium | 滑動窗口 |
 | [2129. 将标题首字母大写](./leetcode/2129.%20将标题首字母大写.md) | 1274.881752217 | Easy | 雙指針 |
+| [216. 组合总和 III](./leetcode/216.%20组合总和%20III.md) |  | Medium | DFS |
 | [2171. 拿出最少数目的魔法豆](./leetcode/2171.%20拿出最少数目的魔法豆.md) | 1748.1339100823 |  |  |
 | [2192. 有向无环图中一个节点的所有祖先](./leetcode/2192.%20有向无环图中一个节点的所有祖先.md) | 1787.8550568757 | Medium | dfs |
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
@@ -76,6 +82,7 @@
 | [232. 用栈实现队列](./leetcode/232.%20用栈实现队列.md) |  | Easy | Stack |
 | [2336. 无限集中的最小数字](./leetcode/2336.%20无限集中的最小数字.md) | 1375.0376362104 | Medium | Set |
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |
+| [2356. 每位教师所教授的科目种类的数量](./leetcode/2356.%20每位教师所教授的科目种类的数量.md) |  | easy | sql |
 | [2369. 检查数组是否存在有效划分](./leetcode/2369.%20检查数组是否存在有效划分.md) | 1779.7001728541 | Medium | dp |
 | [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |
 | [2433. 找出前缀异或的原始数组](./leetcode/2433.%20找出前缀异或的原始数组.md) | 1366.6789652398 | Medium | 前綴和 |
@@ -136,8 +143,10 @@
 | [337. 打家劫舍 III](./leetcode/337.%20打家劫舍%20III.md) |  | Medium | DFS, Tree DP |
 | [365. 水壶问题](./leetcode/365.%20水壶问题.md) |  | Medium | bfs |
 | [375. 猜数字大小 II](./leetcode/375.%20猜数字大小%20II.md) |  | Medium | dp |
+| [377. 组合总和 Ⅳ](./leetcode/377.%20组合总和%20Ⅳ.md) |  | Medium | backpack |
 | [387. First Unique Character in a String](./leetcode/387.%20First%20Unique%20Character%20in%20a%20String.md) |  |  | implementation |
 | [39. Combination Sum](./leetcode/39.%20Combination%20Sum.md) |  | Medium | Backtracking, DFS |
+| [39. 组合总和](./leetcode/39.%20组合总和.md) |  | Medium | dfs |
 | [419. 甲板上的战舰](./leetcode/419.%20甲板上的战舰.md) |  | Medium | DFS |
 | [42. 接雨水](./leetcode/42.%20接雨水.md) |  | Hard | Greedy |
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
@@ -177,6 +186,7 @@
 | [889. 根据前序和后序遍历构造二叉树](./leetcode/889.%20根据前序和后序遍历构造二叉树.md) | 1731.5555445321 | Medium | 分治法 |
 | [894. 所有可能的真二叉树](./leetcode/894.%20所有可能的真二叉树.md) | 1784.2539813582 | Medium | dfs |
 | [907. 子数组的最小值之和](./leetcode/907.%20子数组的最小值之和.md) | 1975.5726300727 | Medium | 贡献法, Stack, Array, 單調棧 |
+| [924. 尽量减少恶意软件的传播](./leetcode/924.%20尽量减少恶意软件的传播.md) | 1868.9146755896 | Hard | 並查集 |
 | [931. Minimum Falling Path Sum](./leetcode/931.%20Minimum%20Falling%20Path%20Sum.md) | 1573.2701790739 | Medium | dp, path |
 | [935. 骑士拨号器](./leetcode/935.%20骑士拨号器.md) | 1690.1655236843 | Medium | dp |
 | [938. 二叉搜索树的范围和](./leetcode/938.%20二叉搜索树的范围和.md) | 1335.0295688697 | Easy | tree |

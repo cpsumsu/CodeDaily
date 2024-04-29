@@ -15,6 +15,7 @@
 | [1068. 产品销售分析 I](./leetcode/1068.%20产品销售分析%20I.md) |  | easy | SQL |
 | [1094. 拼车](./leetcode/1094.%20拼车.md) | 1441.4290319373 | Medium | difference array |
 | [11. 盛最多水的容器](./leetcode/11.%20盛最多水的容器.md) |  | Medium | 雙指針 |
+| [1146. 快照数组](./leetcode/1146.%20快照数组.md) | 1770.8924569497 | Medium | hash map, binary search |
 | [118. Pascal's Triangle](./leetcode/118.%20Pascal's%20Triangle.md) |  |  | dp |
 | [120. Triangle](./leetcode/120.%20Triangle.md) |  |  | dp, paths, reverse |
 | [1207. 独一无二的出现次数](./leetcode/1207.%20独一无二的出现次数.md) | 1195.7512695571 | Easy | hash map |
@@ -24,6 +25,7 @@
 | [1261. 在受污染的二叉树中查找元素](./leetcode/1261.%20在受污染的二叉树中查找元素.md) | 1439.5656079032 | Medium | 哈希表 |
 | [1312. 让字符串成为回文串的最少插入次数](./leetcode/1312.%20让字符串成为回文串的最少插入次数.md) | 1786.688543054 | Hard | dp |
 | [132. 分割回文串 II](./leetcode/132.%20分割回文串%20II.md) |  | Hard | dp |
+| [1329. 将矩阵按对角线排序](./leetcode/1329.%20将矩阵按对角线排序.md) | 1548.4678056182 | Medium | 模擬 |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./leetcode/1347.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram.md) | 1330.918577828 |  | implementation |
 | [1372. 二叉树中的最长交错路径](./leetcode/1372.%20二叉树中的最长交错路径.md) | 1713.2768268466 | Medium | dp |
 | [1379. 找出克隆二叉树中的相同节点](./leetcode/1379.%20找出克隆二叉树中的相同节点.md) |  | Easy | Dfs |
@@ -105,6 +107,7 @@
 | [2673. 使二叉树所有路径值相等的最小代价](./leetcode/2673.%20使二叉树所有路径值相等的最小代价.md) | 1917.1049672432 |  |  |
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |
 | [2707. 字符串中的额外字符](./leetcode/2707.%20字符串中的额外字符.md) | 1735.8505509901 | Medium | Hash Map, dp |
+| [2739. 总行驶距离](./leetcode/2739.%20总行驶距离.md) | 1262.100652797 | Easy | math |
 | [274. H-Index](./leetcode/274.%20H-Index.md) |  | Medium | implementation |
 | [2765. 最长交替子数组](./leetcode/2765.%20最长交替子数组.md) | 1580.9748095835 | Easy | Array |
 | [2766. 重新放置石块](./leetcode/2766.%20重新放置石块.md) | 1613.2485081262 | Medium | 哈希表 |

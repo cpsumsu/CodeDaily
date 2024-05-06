@@ -35,6 +35,7 @@
 | [1457. 二叉树中的伪回文路径](./leetcode/1457.%20二叉树中的伪回文路径.md) | 1405.0021415178 | Medium | DFS, 回溯 |
 | [1475. 商品折扣后的最终价格](./leetcode/1475.%20商品折扣后的最终价格.md) | 1212.2606422181 | Easy | 單調棧 |
 | [1483. 树节点的第 K 个祖先](./leetcode/1483.%20树节点的第%20K%20个祖先.md) | 2115.0911494487 | Hard | 树上倍增 |
+| [1491. 去掉最低工资和最高工资后的工资平均值](./leetcode/1491.%20去掉最低工资和最高工资后的工资平均值.md) | 1201.3497763919 | Easy | 模擬 |
 | [15. 三数之和](./leetcode/15.%20三数之和.md) |  | Medium | 三指針 |
 | [150. Evaluate Reverse Polish Notation](./leetcode/150.%20Evaluate%20Reverse%20Polish%20Notation.md) |  |  | implementation, notation |
 | [1544. Make The String Great](./leetcode/1544.%20Make%20The%20String%20Great.md) | 1344.226133202 | Medium | slibing window |

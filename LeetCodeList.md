@@ -39,6 +39,7 @@
 | [15. 三数之和](./leetcode/15.%20三数之和.md) |  | Medium | 三指針 |
 | [150. Evaluate Reverse Polish Notation](./leetcode/150.%20Evaluate%20Reverse%20Polish%20Notation.md) |  |  | implementation, notation |
 | [1544. Make The String Great](./leetcode/1544.%20Make%20The%20String%20Great.md) | 1344.226133202 | Medium | slibing window |
+| [1553. 吃掉 N 个橘子的最少天数](./leetcode/1553.%20吃掉%20N%20个橘子的最少天数.md) | 2048.0976546787 | Hard | dfs |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 |  | implementation |
 | [1600. 王位继承顺序](./leetcode/1600.%20王位继承顺序.md) | 1768.623896829 | Medium | dfs, 哈希表 |
 | [162. 寻找峰值](./leetcode/162.%20寻找峰值.md) |  | Medium | Binary Search |

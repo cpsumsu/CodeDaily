@@ -64,6 +64,7 @@
 | [191. Number of 1 Bits](./leetcode/191.%20Number%20of%201%20Bits.md) |  |  | implementation |
 | [1913. Maximum Product Difference Between Two Pairs](./leetcode/1913.%20Maximum%20Product%20Difference%20Between%20Two%20Pairs.md) | 1144.6237559885 |  | implementation |
 | [1944. 队列中可以看到的人数](./leetcode/1944.%20队列中可以看到的人数.md) | 2104.9526046945 | Hard | Monotonic Stack |
+| [1953. 你可以工作的最大周数](./leetcode/1953.%20你可以工作的最大周数.md) | 1803.7518552874 | Medium | Math |
 | [1969. 数组元素的最小非零乘积](./leetcode/1969.%20数组元素的最小非零乘积.md) | 1966.7067914206 | Medium | math |
 | [1997. 访问完所有房间的第一天](./leetcode/1997.%20访问完所有房间的第一天.md) | 2260.2799775623 | Medium | dp |
 | [2007. 从双倍数组中还原原数组](./leetcode/2007.%20从双倍数组中还原原数组.md) | 1557.017055582 | Medium | 哈希表 |

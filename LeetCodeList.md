@@ -57,6 +57,7 @@
 | [1702. 修改后的最大二进制字符串](./leetcode/1702.%20修改后的最大二进制字符串.md) | 1825.4207082682 | Medium | greedy |
 | [1704. Determine if String Halves Are Alike](./leetcode/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.md) | 1207.7224406285 | Easy | implementation |
 | [1727. Largest Submatrix With Rearrangements](./leetcode/1727.%20Largest%20Submatrix%20With%20Rearrangements.md) | 1926.7059583253 |  | sorting, greedy |
+| [1738. 找出第 K 大的异或坐标值](./leetcode/1738.%20找出第%20K%20大的异或坐标值.md) | 1671.4657554194 | Medium | 前綴和 |
 | [1757. 可回收且低脂的产品](./leetcode/1757.%20可回收且低脂的产品.md) |  | easy | sql |
 | [1793. 好子数组的最大分数](./leetcode/1793.%20好子数组的最大分数.md) | 1945.7515607928 | Hard | 雙指針 |
 | [1814.Count Nice Pairs in an Array](./leetcode/1814.Count%20Nice%20Pairs%20in%20an%20Array.md) | 1737.8431142688 |  | hash map, implementation, combination |
@@ -79,6 +80,7 @@
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [221. Maximal Square](./leetcode/221.%20Maximal%20Square.md) |  | Medium | dp, array, matrix |
 | [2216. 美化数组的最少删除数](./leetcode/2216.%20美化数组的最少删除数.md) | 1509.5562928491 | Medium | Greedy |
+| [2225. 找出输掉零场或一场比赛的玩家](./leetcode/2225.%20找出输掉零场或一场比赛的玩家.md) | 1316.2046992429 | Medium | hash map |
 | [2246. 相邻字符不同的最长路径](./leetcode/2246.%20相邻字符不同的最长路径.md) | 2126.3922279277 | Hard | 樹形dp |
 | [225. 用队列实现栈](./leetcode/225.%20用队列实现栈.md) |  | Easy | Queue |
 | [228. Summary Ranges](./leetcode/228.%20Summary%20Ranges.md) |  | Easy | implementation |
@@ -119,6 +121,7 @@
 | [2809. 使数组和小于等于 x 的最少时间](./leetcode/2809.%20使数组和小于等于%20x%20的最少时间.md) | 2978.7961959355 | Hard | 0-1 backpack |
 | [2810. 故障键盘](./leetcode/2810.%20故障键盘.md) | 1192.9770230345 | Easy | 模擬 |
 | [2824. 统计和小于目标的下标对数目](./leetcode/2824.%20统计和小于目标的下标对数目.md) | 1165.8838207286 | Easy | Binary Search |
+| [2831. 找出最长等值子数组](./leetcode/2831.%20找出最长等值子数组.md) | 1975.9693382075 | Medium | hash map |
 | [2834. 找出美丽数组的最小和](./leetcode/2834.%20找出美丽数组的最小和.md) | 1409.2288385791 | Medium | math |
 | [2840. Check if Strings Can be Made Equal With Operations II](./leetcode/2840.%20Check%20if%20Strings%20Can%20be%20Made%20Equal%20With%20Operations%20II.md) | 1486.2147876747 |  | dp |
 | [2846. 边权重均等查询](./leetcode/2846.%20边权重均等查询.md) | 2507.9960044659 | Hard | LCA |

@@ -133,6 +133,7 @@
 | [2867. 统计树中的合法路径数目](./leetcode/2867.%20统计树中的合法路径数目.md) | 2428.3242593838 | Hard | DFS |
 | [29. Divide Two Integers](./leetcode/29.%20Divide%20Two%20Integers.md) |  |  | implementation, bit manipulation |
 | [2923. 找到冠军 I](./leetcode/2923.%20找到冠军%20I.md) | 1235.6484230513 | Easy | 枚舉 |
+| [2928. 给小朋友们分糖果 I](./leetcode/2928.%20给小朋友们分糖果%20I.md) | 1393.3604603199 | Easy | 枚舉 |
 | [2938. 区分黑球与白球](./leetcode/2938.%20区分黑球与白球.md) | 1422.7125559974 | Medium | Greedy |
 | [2958. Length of Longest Subarray With at Most K Frequency](./leetcode/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.md) | 1535.3680469616 | Medium | Sliding Window |
 | [2960. Count Tested Devices After Test Operations](./leetcode/2960.%20Count%20Tested%20Devices%20After%20Test%20Operations.md) | 1169.4209117977 |  | implementation |

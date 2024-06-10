@@ -91,7 +91,7 @@
 | [2342. 数位和相等数对的最大和](./leetcode/2342.%20数位和相等数对的最大和.md) | 1308.9617729374 | Medium | Hash Map |
 | [2356. 每位教师所教授的科目种类的数量](./leetcode/2356.%20每位教师所教授的科目种类的数量.md) |  | easy | sql |
 | [2369. 检查数组是否存在有效划分](./leetcode/2369.%20检查数组是否存在有效划分.md) | 1779.7001728541 | Medium | dp |
-| [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  |  | implementation |
+| [242. Valid Anagram](./leetcode/242.%20Valid%20Anagram.md) |  | Easy | implementation |
 | [2433. 找出前缀异或的原始数组](./leetcode/2433.%20找出前缀异或的原始数组.md) | 1366.6789652398 | Medium | 前綴和 |
 | [2444. Count Subarrays With Fixed Bounds](./leetcode/2444.%20Count%20Subarrays%20With%20Fixed%20Bounds.md) | 2092.5366031561 |  | slibing window |
 | [2476. 二叉搜索树最近节点查询](./leetcode/2476.%20二叉搜索树最近节点查询.md) | 1596.9852244916 | Medium | dfs |
@@ -102,6 +102,7 @@
 | [2580. 统计将重叠区间合并成组的方案数](./leetcode/2580.%20统计将重叠区间合并成组的方案数.md) | 1631.5850830561 | Medium | greedy, math |
 | [2581. 统计可能的树根数目](./leetcode/2581.%20统计可能的树根数目.md) | 2228.3454693625 | Hard | Tree |
 | [2583. 二叉树中的第 K 大层和](./leetcode/2583.%20二叉树中的第%20K%20大层和.md) | 1374.3527967199 | Medium | BFS |
+| [260. Single Number III](./leetcode/260.%20Single%20Number%20III.md) |  | Medium | hash map |
 | [2617. 网格图中最少访问的格子数](./leetcode/2617.%20网格图中最少访问的格子数.md) | 2581.9961985753 | Hard | dp, 最小堆 |
 | [264. Ugly Number II](./leetcode/264.%20Ugly%20Number%20II.md) |  | Medium | dp, math |
 | [2645. 构造有效字符串的最少插入数](./leetcode/2645.%20构造有效字符串的最少插入数.md) | 1477.7669322402 | Medium | Greedy |
@@ -142,6 +143,9 @@
 | [3. 无重复字符的最长子串](./leetcode/3.%20无重复字符的最长子串.md) |  | Medium | 雙指針 |
 | [300. Longest Increasing Subsequence](./leetcode/300.%20Longest%20Increasing%20Subsequence.md) |  | Medium | longest-increasing-subsequences, dp |
 | [303. 区域和检索 - 数组不可变](./leetcode/303.%20区域和检索%20-%20数组不可变.md) |  | Easy | array |
+| [3038. 相同分数的最大操作数目 I](./leetcode/3038.%20相同分数的最大操作数目%20I.md) | 1201.781034405 | Easy | 模擬 |
+| [3067. 在带权树网络中统计可连接服务器对数目](./leetcode/3067.%20在带权树网络中统计可连接服务器对数目.md) | 1908.9411092109 | Medium | DFS |
+| [3072. 将元素分配到两个数组中 II](./leetcode/3072.%20将元素分配到两个数组中%20II.md) | 2052.8622720512 | Hard | 樹狀數組 |
 | [3083. 字符串及其反转中是否存在同一子字符串](./leetcode/3083.%20字符串及其反转中是否存在同一子字符串.md) | 1173.0485559374 | Easy | 哈希表 |
 | [3084. 统计以给定字符开头和结尾的子字符串总数](./leetcode/3084.%20统计以给定字符开头和结尾的子字符串总数.md) | 1323.7856529722 | Medium | math |
 | [3085. 成为 K 特殊字符串需要删除的最少字符数](./leetcode/3085.%20成为%20K%20特殊字符串需要删除的最少字符数.md) | 1764.7072848367 | Medium | 枚舉 |
@@ -157,6 +161,7 @@
 | [387. First Unique Character in a String](./leetcode/387.%20First%20Unique%20Character%20in%20a%20String.md) |  |  | implementation |
 | [39. Combination Sum](./leetcode/39.%20Combination%20Sum.md) |  | Medium | Backtracking, DFS |
 | [39. 组合总和](./leetcode/39.%20组合总和.md) |  | Medium | dfs |
+| [409. Longest Palindrome](./leetcode/409.%20Longest%20Palindrome.md) |  | Easy | implementation |
 | [419. 甲板上的战舰](./leetcode/419.%20甲板上的战舰.md) |  | Medium | DFS |
 | [42. 接雨水](./leetcode/42.%20接雨水.md) |  | Hard | Greedy |
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |

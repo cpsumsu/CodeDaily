@@ -1,6 +1,5 @@
 name: Update Newest List of Leecode
 on: 
-  push:
   schedule:
     - cron: "00 19 * * 1"    #run every week on Mondays at 19:00 UTC
 jobs:

@@ -27,3 +27,8 @@ jobs:
           git commit -m "DailyCodeList updated by autoLs"
           git push
         shell: bash
+      - name: result check
+        if: failure()
+        run: |
+          echo "[Error] 由於本次沒有任何更新，本次更新失敗。
+          exit 1

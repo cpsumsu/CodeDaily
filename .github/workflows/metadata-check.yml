@@ -24,7 +24,7 @@ jobs:
         python ActionPy/SetUpForTest/setupfortest.py
     - name: Check Metadata Format
       run: |
-        pytest -v ActionPy/test_metadata.py 
+        pytest ActionPy/test_metadata.py 
     - name: Uploading Test Results
       run: |
         git config user.name "$(git log -n 1 --pretty=format:%an)"

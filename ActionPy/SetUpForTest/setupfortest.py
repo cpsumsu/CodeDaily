@@ -3,7 +3,7 @@ import os
 markdown_files = [os.path.join('leetcode/', f) for f in os.listdir('leetcode') if f.endswith('.md')]
 print(markdown_files)
 
-# https://regex101.com/r/1lTwsY/1
+# https://regex101.com/r/TImBh3/3
 
 with open('ActionPy/test_metadata.py', 'w+', encoding='utf-8') as file:
     file.write('import pytest\n')
@@ -20,25 +20,20 @@ class TestBase:
             content = f.read()
             
             # Check if the file starts with the expected metadata format
-            metadata = re.match(r'---\\nDifficulty: "(?P<difficulty>\w+)"\\ntags: \[(?P<tags>[\w, "]+)\](\\ntitle: "(?P<title>\w+)")?\\n---', content)
-            assert metadata is not None, f'Metadata format is missing or incorrect in {file_path}'
+            metadata = re.match(r'---\s*\\n(?:title:\s*"(?P<title>\w+)"\s*\\n)?(?:Difficulty:\s*"(?P<difficulty>\w+)"\s*\\n)?(?:tags:\s*\[(?P<tags>[\w\s,"]*)\]\s*\\n)?---', content)
+            assert metadata is not None, f'Metadata format is missing or incorrect'
             
-            difficulty = metadata.group(1)
-            tags = metadata.group(2)
+            difficulty = metadata.group('difficulty')
+            tags = metadata.group('tags')
+            title = metadata.group('title')
             extra_properties = metadata.group(3)
             
             # Check if Difficulty and tags are present
-            assert difficulty is not None, f'Difficulty is missing in {file_path}'
-            assert tags is not None, f'Tags is missing in {file_path}'
+            assert difficulty is not None, f'Difficulty is missing'
+            assert tags is not None, f'Tags is missing'
             
             # Check for extra properties
-            if extra_properties is not None:
-                extra_properties = extra_properties.strip().split('\\n')
-                for prop in extra_properties:
-                    if prop.startswith('title:'):
-                        pass  # Ignore the "title" property
-                    else:
-                        assert False, f'Unexpected property "{prop.split(":")[0]}" in {file_path}'
+            pass  # Ignore the "title" property
 """)
 
     for i, file_path in enumerate(markdown_files):

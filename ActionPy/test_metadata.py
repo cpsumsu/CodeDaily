@@ -10,29 +10,24 @@ class TestBase:
             content = f.read()
             
             # Check if the file starts with the expected metadata format
-            metadata = re.match(r'---\nDifficulty: "(?P<difficulty>\w+)"\ntags: \[(?P<tags>[\w, "]+)\](\ntitle: "(?P<title>\w+)")?\n---', content)
-            assert metadata is not None, f'Metadata format is missing or incorrect in {file_path}'
+            metadata = re.match(r'---\s*\n(?:title:\s*"(?P<title>\w+)"\s*\n)?(?:Difficulty:\s*"(?P<difficulty>\w+)"\s*\n)?(?:tags:\s*\[(?P<tags>[\w\s,"]*)\]\s*\n)?---', content)
+            assert metadata is not None, f'Metadata format is missing or incorrect'
             
-            difficulty = metadata.group(1)
-            tags = metadata.group(2)
+            difficulty = metadata.group('difficulty')
+            tags = metadata.group('tags')
+            title = metadata.group('title')
             extra_properties = metadata.group(3)
             
             # Check if Difficulty and tags are present
-            assert difficulty is not None, f'Difficulty is missing in {file_path}'
-            assert tags is not None, f'Tags is missing in {file_path}'
+            assert difficulty is not None, f'Difficulty is missing'
+            assert tags is not None, f'Tags is missing'
             
             # Check for extra properties
-            if extra_properties is not None:
-                extra_properties = extra_properties.strip().split('\n')
-                for prop in extra_properties:
-                    if prop.startswith('title:'):
-                        pass  # Ignore the "title" property
-                    else:
-                        assert False, f'Unexpected property "{prop.split(":")[0]}" in {file_path}'
+            pass  # Ignore the "title" property
 @pytest.mark.parametrize("file_path", ["leetcode/100121. 查找包含给定字符的单词.md"])
 def test_100121(file_path):
     TestBase.metadata_format(file_path)
-    
+
 @pytest.mark.parametrize("file_path", ["leetcode/100133. 购买水果需要的最少金币数.md"])
 def test_100133(file_path):
     TestBase.metadata_format(file_path)

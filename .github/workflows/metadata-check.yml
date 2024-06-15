@@ -29,3 +29,7 @@ jobs:
           for file_path in markdown_files:
             pytest tests/test_metadata_format.py::test_metadata_format[$file_path]
         "
+      shell: /usr/bin/bash -e {0}
+      env:
+        pythonLocation: ${{ runner.python }}
+        LD_LIBRARY_PATH: ${{ runner.python }}/lib

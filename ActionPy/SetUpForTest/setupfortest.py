@@ -2,7 +2,7 @@ import os
 markdown_files = [os.path.join('leetcode', f) for f in os.listdir('leetcode') if f.endswith('.md')]
 print(markdown_files)
 
-with open('test_metadata.py', 'w') as file:
+with open('ActionPy/test_metadata.py', 'w+') as file:
     file.write('import pytest\n')
     
     file.write("""

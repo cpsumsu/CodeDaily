@@ -28,4 +28,4 @@ jobs:
         "
     - name: Check Metadata Format
       run: |
-        pytest leetcode/test_metadata_format.py metadata-files
+        pytest ActionPy/test_metadata_format.py

@@ -19,10 +19,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest
-    - name: Test Metadata Format
+    - name: Getting all Markdown Files
       run: |
         python -c "
         import os; 
         markdown_files = [os.path.join('leetcode', f) for f in os.listdir('leetcode') if f.endswith('.md')]; 
-        pytest ActionPy/test_metadata_format.py::test_metadata_format[markdown_files];
         "
+    - name: Check Metadata Format
+      run: |
+        pytest leetcode/test_metadata_format.py --metadata-files

@@ -20,8 +20,9 @@ class TestBase:
             content = f.read()
             
             # Check if the file starts with the expected metadata format
-            metadata = re.match(r'---\s*\\n(?:title:\s*"(?P<title>\w+)"\s*\\n)?(?:Difficulty:\s*"(?P<difficulty>\w+)"\s*\\n)?(?:tags:\s*\[(?P<tags>[\w\s,"]*)\]\s*\\n)?---', content)
-            assert metadata is not None, f'Metadata format is missing or incorrect'
+            metadata = re.match(r'---\s*\\n(?:title:\s*"(?P<title>[\w.\- ]+)"\s*\\n)?(?:Difficulty:\s*"(?P<difficulty>\w+)"\s*\\n)?(?:tags:\s*\[(?P<tags>[\w\s,"]*)\]\s*\\n)?---', content)
+            if metadata is None:
+                pytest.fail(f'Metadata format is missing or incorrect')
             
             difficulty = metadata.group('difficulty')
             tags = metadata.group('tags')
@@ -29,8 +30,10 @@ class TestBase:
             extra_properties = metadata.group(3)
             
             # Check if Difficulty and tags are present
-            assert difficulty is not None, f'Difficulty is missing'
-            assert tags is not None, f'Tags is missing'
+            if difficulty is None:
+                pytest.fail(f'Difficulty is missing')
+            if tags is None:
+                pytest.fail(f'Tags is missing')
             
             # Check for extra properties
             pass  # Ignore the "title" property

@@ -21,15 +21,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest
+        import os
+        markdown_files = [os.path.join('leetcode', f) for f in os.listdir('leetcode') if f.endswith('.md')]
     - name: Test Metadata Format
       run: |
-        python -c "
-          import os
-          markdown_files = [os.path.join('leetcode', f) for f in os.listdir('leetcode') if f.endswith('.md')]
-          for file_path in markdown_files:
-            pytest tests/test_metadata_format.py::test_metadata_format[$file_path]
+        python -c "for file_path in markdown_files:
+          pytest tests/test_metadata_format.py::test_metadata_format[$file_path]
         "
-      shell: /usr/bin/bash -e {0}
-      env:
-        pythonLocation: ${{ runner.python }}
-        LD_LIBRARY_PATH: ${{ runner.python }}/lib

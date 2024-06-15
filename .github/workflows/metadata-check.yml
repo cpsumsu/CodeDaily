@@ -24,5 +24,5 @@ jobs:
         python -c "
         import os; 
         markdown_files = [os.path.join('leetcode', f) for f in os.listdir('leetcode') if f.endswith('.md')]; 
-        pytest tests/test_metadata_format.py::test_metadata_format[markdown_files];
+        pytest ActionPy/test_metadata_format.py::test_metadata_format[markdown_files];
         "

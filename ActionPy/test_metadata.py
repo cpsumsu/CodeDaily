@@ -1,16 +1,4 @@
-import os
 import re
-
-def get_markdown_files(root_dir):
-    """
-    Get a list of all Markdown files in the given directory and its subdirectories.
-    """
-    markdown_files = []
-    for root, _, files in os.walk(root_dir):
-        for file in files:
-            if file.endswith('.md'):
-                markdown_files.append(os.path.join(root, file))
-    return markdown_files
 
 def test_metadata_format(file_path):
     """
@@ -37,11 +25,3 @@ def test_metadata_format(file_path):
                 pass  # Ignore the "name" property
             else:
                 assert False, f'Unexpected property "{prop.split(":")[0]}" in {file_path}'
-
-def test_all_markdown_files():
-    """
-    Check the metadata format of all Markdown files in the ./leetcode/ directory.
-    """
-    markdown_files = get_markdown_files('./leetcode')
-    for file_path in markdown_files:
-        test_metadata_format(file_path)

@@ -19,11 +19,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install pytest
-        import os
     - name: Test Metadata Format
       run: |
-        python -c "import os
-          markdown_files = [os.path.join('leetcode', f) for f in os.listdir('leetcode') if f.endswith('.md')]
-          for file_path in markdown_files:
-            pytest tests/test_metadata_format.py::test_metadata_format[$file_path]
-        "
+        for file_path in $(find leetcode -type f -name "*.md"); do
+          pytest tests/test_metadata_format.py::test_metadata_format -k "$file_path"
+        done

@@ -9,7 +9,6 @@ on:
 jobs:
   check-metadata-Format:
     runs-on: ubuntu-latest
-    
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
@@ -18,17 +17,12 @@ jobs:
         python-version: 3.9
     - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install pytest
-    - name: Find files matching ff -e "leetcode/**.md"
-      uses: jeertmans/filesfinder@latest
-      id: ff # Any id, to be used later to reference to files output
-      with:
-        # Only argument, a single string, to be passed as arguments to ff.
-        # See `ff --help` for more help.
-        # Default: "*"
-        args: ff -e "leetcode/**.md"
     - name: Test Metadata Format
       run: |
-        for file_path in ${{ steps.ff.outputs.files }}; do
-          pytest tests/test_metadata_format.py::test_metadata_format -k "$file_path"
-        done
+        python -c "
+        import os; 
+        markdown_files = [os.path.join('leetcode', f) for f in os.listdir('leetcode') if f.endswith('.md')]; 
+        pytest tests/test_metadata_format.py::test_metadata_format[markdown_files];
+        "

@@ -19,8 +19,16 @@ jobs:
     - name: Install dependencies
       run: |
         pip install pytest
+    - name: Find files matching ff -e "leetcode/**.md"
+      uses: jeertmans/filesfinder@latest
+      id: ff # Any id, to be used later to reference to files output
+      with:
+        # Only argument, a single string, to be passed as arguments to ff.
+        # See `ff --help` for more help.
+        # Default: "*"
+        args: ff -e "leetcode/**.md"
     - name: Test Metadata Format
       run: |
-        for file_path in $(find leetcode -type f -name "*.md"); do
+        for file_path in ${{ steps.ff.outputs.files }}; do
           pytest tests/test_metadata_format.py::test_metadata_format -k "$file_path"
         done

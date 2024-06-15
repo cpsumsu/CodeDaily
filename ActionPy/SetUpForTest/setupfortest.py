@@ -3,7 +3,7 @@ import os
 markdown_files = [os.path.join('leetcode/', f) for f in os.listdir('leetcode') if f.endswith('.md')]
 print(markdown_files)
 
-# https://regex101.com/r/TImBh3/3
+# https://regex101.com/r/EXWeym/2
 
 with open('ActionPy/test_metadata.py', 'w+', encoding='utf-8') as file:
     file.write('import pytest\n')
@@ -20,7 +20,7 @@ class TestBase:
             content = f.read()
             
             # Check if the file starts with the expected metadata format
-            metadata = re.match(r'---\s*\\n(?:title:\s*"(?P<title>[\w.\- ]+)"\s*\\n)?(?:Difficulty:\s*"(?P<difficulty>\w+)"\s*\\n)?(?:tags:\s*\[(?P<tags>[\w\s,"]*)\]\s*\\n)?---', content)
+            metadata = re.match(r'---\s*\\n(?:title:\s*"(?P<title>[\w.\- \\'\,\|\[\-\=\?\/]+)"\s*\\n)?(?:Difficulty:\s*"(?P<difficulty>\w+)"\s*\\n)?(?:tags:\s*\[(?P<tags>[\w\s,"]*)\]\s*\\n)?---', content)
             if metadata is None:
                 pytest.fail(f'Metadata format is missing or incorrect')
             

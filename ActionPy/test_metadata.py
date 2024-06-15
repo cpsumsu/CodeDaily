@@ -1,4 +1,4 @@
-from .SetUpForTest.TestBase import TestBase
+from .TestBase import TestBase
 import pytest
 
 @pytest.mark.parametrize("file_path", "leetcode\\3. 无重复字符的最长子串.md")

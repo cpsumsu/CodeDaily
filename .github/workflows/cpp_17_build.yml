@@ -27,7 +27,6 @@ jobs:
         python ActionPy/SetUpForTest/setupforbuild17.py
     - name: Start test_cpp_17_build
       run: |
-        cmake $GITHUB_WORKSPACE -DCMAKE_BUILD_TYPE=$BUILD_TYPE
         pytest ActionPy/test_cpp_17_build.py
       shell: bash
       env:

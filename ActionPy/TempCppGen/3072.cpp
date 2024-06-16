@@ -3,8 +3,6 @@
 #include <algorithm>
 #include <string>
 #include <unordered_map>
-#include <functional>
-#include <limits.h>
 using namespace std;
 class smt {
     vector<int> tree;

@@ -3,8 +3,6 @@
 #include <algorithm>
 #include <string>
 #include <unordered_map>
-#include <functional>
-#include <limits.h>
 using namespace std;
 const int MX = 1e5;
 bool np[MX + 1];

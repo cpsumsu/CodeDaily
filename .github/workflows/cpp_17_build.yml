@@ -1,4 +1,4 @@
-name: cpp11 Build auto Test
+name: cpp17 Build auto Test
 
 on:
   push:
@@ -16,7 +16,10 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y g++ cmake
-    - name: Run tests
+    - name: Init unit test
       run: |
         pip install pytest
-        pytest ActionPy/setupforbuild11.py
+        py ActionPy/SetUpForTest/setupforbuild17.py
+    - name: Start test_cpp_17_build
+      run: |
+        pytest ActionPy/test_cpp_17_build.py

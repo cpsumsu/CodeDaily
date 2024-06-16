@@ -80,6 +80,8 @@ with open(f"ActionPy/{CPP17PY}", "w+", encoding='utf-8') as file:
                     t.write("#include <algorithm>\n")
                     t.write('#include <string>\n')
                     t.write('#include <unordered_map>\n')
+                    t.write('#include <functional>\n')
+                    t.write('#include <limits.h>\n')
                     t.write("using namespace std;\n")
                     t.write(''.join([str(elem) for i,elem in enumerate(res)]))
                     

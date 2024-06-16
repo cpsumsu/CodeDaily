@@ -28,3 +28,7 @@ public:
         return ans[ans.size() - k];
     }
 };
+int main()
+{
+   return 0;
+}

@@ -19,3 +19,7 @@ public:
         return x % s == 0 ? s : -1 ;
     }
 };
+int main()
+{
+   return 0;
+}

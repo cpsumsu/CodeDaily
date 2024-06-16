@@ -49,3 +49,7 @@ public:
         return cnt == 0 ? 0 : (cnt > 0 ? 1 : -1);
     }
 };
+int main()
+{
+   return 0;
+}

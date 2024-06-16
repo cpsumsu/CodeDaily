@@ -30,3 +30,7 @@ public:
         return ans < 0 ? -1 : n - ans;
     }
 };
+int main()
+{
+   return 0;
+}

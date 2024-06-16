@@ -19,3 +19,7 @@ public:
         return min(dp[cost.size() - 1], dp[cost.size() - 2]);
     }
 };
+int main()
+{
+   return 0;
+}

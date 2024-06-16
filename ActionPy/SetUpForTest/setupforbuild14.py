@@ -3,8 +3,11 @@ import pytest
 import os
 
 CPP11 = 'g++ -std=c++11 -o'
-CPP20 = 'g++ -std=c++20 -o'
-CPP08 = 'g++ -std=c++08 -o'
+CPP14 = 'g++ -std=c++14 -o'
+CPP17 = 'g++ -std=c++17 -o'
+CPP11PY = 'test_cpp_11_build.py'
+CPP14PY = 'test_cpp_14_build.py'
+CPP17PY = 'test_cpp_17_build.py'
 
 def extract_code_blocks(markdown_text):
     """
@@ -51,120 +54,10 @@ def extract_code_blocks(markdown_text):
         code_blocks.append("\n".join(modified_block))
     
     return code_blocks
-cb = extract_code_blocks(
-"""
----
-Difficulty: "Medium"
-tags: ["String", "dp","Manacher"]
----
 
-> Problem: [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-# Method 1 (dp)
-## Analysis 
-- **first observe the pattern:**
-    - string size = 1, the output must be the string itself.
-    - for string size = 2, if the 2 characters are the same, then it is a palindrome.
-- for a generalized pattern, as we loop through the palindromes, we see that:
-> if `aba` is a palindrome then `xabax` will also be a palindrome.
-- so it is obvious that substrings are related by their length or more specifically, **index**.
-- let `dp[j][i]` represent whether if the substring(j,i)(*here means from the index j to i*) is a palindrome or not.
-- the core coding is as follows:
-```cpp
-if(s[i] == s[j] && (L<3 || dp[j+1][i-1])){
-    dp[j][i] = true;
-}
-```
 
-## Code
-```c++
-class Solution {
-public:
-    string longestPalindrome(string s) {
-        int n = s.length();
-        if(n<2) return s;
-
-        int pos=0,len=0;
-        vector<vector<bool>>dp(n,vector<bool>(n,false));
-
-        for(int i=0; i<n;i++){
-            dp[i][i] = true;
-            for(int j=0;j<=i;j++){
-                int L = i-j+1;
-                if(s[i] == s[j] && (L<3 || dp[j+1][i-1])){
-                    dp[j][i] = true;
-                    if (L >= len){
-                        len=L;
-                        pos=j;
-                    }
-                }
-            }
-        }
-        return s.substr(pos,len);
-    }
-};
-```	
-## Complexity
-### Time
->$O(n^2)$
-### Space
->$O(n*2)$
-
- *** 
-
- # Method 2 (expand from centre)
-## Analysis 
-- this method is even easier.
-- we can observe that palindromes have same elements at their head and tails. 
-- so all we have to do is to enumerate every element as a centre of the possible palindrome substring.
-- be noted that we need to seperate dealing odd centres and even centres.
-
-## Code
-```c++
-class Solution {
-public:
-    string longestPalindrome(string s) {
-        //initialisation
-        int start=0;
-        int length=1;
-        int n=s.length();
-
-        //loop through the even and odd centres
-        for(int i=0;i<n;i++){
-            //even 
-            int lower = i;
-            int upper = i+1;
-            while((upper < n && lower >=0) && s[lower]==s[upper]){
-                if((upper-lower+1) >= length) length = upper-lower+1,start=lower ;
-                lower--;
-                upper++;
-            }
-
-            //odd
-            lower = i-1;
-            upper = i+1;
-            while((upper < n && lower >=0) && s[lower]==s[upper]){
-                if((upper-lower+1) >= length) length = upper-lower+1,start=lower ;
-                lower--;
-                upper++;
-            }
-        }
-        return s.substr(start,length);
-    }
-    
-};
-```	
-## Complexity
-### Time
->$O(n^2)$
-### Space
->$O(1)$
-
-# Method 3 (Manachers)
-"""
-)
-
-with open("ActionPy/test_cpp_11_build.py", "w+", encoding='utf-8') as file:
-    file.write("# test_cpp_11_build.py\n")
+with open(f"ActionPy/{CPP14PY}", "w+", encoding='utf-8') as file:
+    file.write(f"# {CPP14PY}.py\n")
     file.write("import subprocess\n")
     file.write("import pytest\n")
     file.write("\n")
@@ -189,8 +82,16 @@ with open("ActionPy/test_cpp_11_build.py", "w+", encoding='utf-8') as file:
                     t.write('#include <unordered_map>\n')
                     t.write("using namespace std;\n")
                     t.write(''.join([str(elem) for i,elem in enumerate(res)]))
+                    
+                    # TODO: ADD more test function
+                    t.write("\n")
+                    t.write("int main()\n")
+                    t.write("{\n")
+                    t.write("   return 0;\n")
+                    t.write("}")
 
-                file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", "{CPP11} ActionPy/TempCppGen/{function_name}.cpp")])\n')
+
+                file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", "{CPP14} ActionPy/TempCppGen/cpp14/{function_name}Gen ActionPy/TempCppGen/{function_name}.cpp")])\n')
                 file.write(f"def test_build_cpp_{function_name}(test_case):\n")
                 file.write('    cpp_file, build_command = test_case\n')
                 file.write("    try:\n")

@@ -87,3 +87,7 @@ public:
         return ans == n ? *min_element(initial.begin(), initial.end()) : ans;
     }
 };
+int main()
+{
+   return 0;
+}

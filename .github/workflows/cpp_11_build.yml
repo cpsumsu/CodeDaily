@@ -19,4 +19,4 @@ jobs:
     - name: Run tests
       run: |
         pip install pytest
-        pytest ActionPy/test_cpp_11_build.py
+        pytest ActionPy/setupforbuild11.py

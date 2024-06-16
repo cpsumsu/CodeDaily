@@ -12,3 +12,7 @@ public:
         return mainTank * 10 + min((mainTank - 1) / 4, additionalTank) * 10;
     }
 };
+int main()
+{
+   return 0;
+}

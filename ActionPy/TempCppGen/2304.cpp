@@ -37,3 +37,7 @@ public:
         return mn;
     }
 };
+int main()
+{
+   return 0;
+}

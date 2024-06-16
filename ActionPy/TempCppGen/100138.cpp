@@ -31,3 +31,7 @@ public:
         return ans * ans;
     }
 };
+int main()
+{
+   return 0;
+}

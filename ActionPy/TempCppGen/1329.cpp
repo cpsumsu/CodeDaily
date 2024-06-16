@@ -26,3 +26,7 @@ public:
         return mat;
     }
 };
+int main()
+{
+   return 0;
+}

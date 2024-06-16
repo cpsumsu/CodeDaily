@@ -40,3 +40,7 @@ public:
         return new TreeNode(preorder[0], l, r);
     }
 };
+int main()
+{
+   return 0;
+}

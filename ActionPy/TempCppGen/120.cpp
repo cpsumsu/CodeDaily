@@ -20,3 +20,7 @@ public:
         return dp[0];
     }
 };
+int main()
+{
+   return 0;
+}

@@ -25,3 +25,7 @@ public:
         return title;
     }
 };
+int main()
+{
+   return 0;
+}

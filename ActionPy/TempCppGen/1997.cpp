@@ -26,3 +26,7 @@ public:
         return dp[n - 1];
     }
 };
+int main()
+{
+   return 0;
+}

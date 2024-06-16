@@ -21,3 +21,7 @@ public:
         return *max_element(dp.begin(),dp.end());
     }
 };
+int main()
+{
+   return 0;
+}

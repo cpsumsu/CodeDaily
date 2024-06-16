@@ -23,3 +23,7 @@ public:
         return max(p, n);
     }
 };
+int main()
+{
+   return 0;
+}

@@ -26,3 +26,7 @@ public:
         return min(dp[n][0], dp[n][1]);
     }
 };
+int main()
+{
+   return 0;
+}

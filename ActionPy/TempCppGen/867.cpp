@@ -21,3 +21,7 @@ public:
         return ret;
     }
 };
+int main()
+{
+   return 0;
+}

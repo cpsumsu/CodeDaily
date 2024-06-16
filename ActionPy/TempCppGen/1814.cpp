@@ -35,3 +35,7 @@ public:
         return cnt % int64_t(1e9 + 7);
     }
 };
+int main()
+{
+   return 0;
+}

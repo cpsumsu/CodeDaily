@@ -50,3 +50,7 @@ public:
         return nums.size() - start;
     }
 };
+int main()
+{
+   return 0;
+}

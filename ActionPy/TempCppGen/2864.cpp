@@ -26,3 +26,7 @@ public:
         return string(cnt1 - 1, '1') + string(n - cnt1, '0') + '1';
     }
 };
+int main()
+{
+   return 0;
+}

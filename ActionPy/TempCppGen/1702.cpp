@@ -31,3 +31,7 @@ public:
         return binary;
     }
 };
+int main()
+{
+   return 0;
+}

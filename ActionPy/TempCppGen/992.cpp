@@ -72,3 +72,7 @@ class Solution_b {
         return ans;
     }
 };
+int main()
+{
+   return 0;
+}

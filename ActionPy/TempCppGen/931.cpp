@@ -25,3 +25,7 @@ public:
         return *min_element(matrix[N - 1].begin(), matrix[N - 1].end());
     }
 };
+int main()
+{
+   return 0;
+}

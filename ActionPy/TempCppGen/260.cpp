@@ -31,3 +31,7 @@ public:
         return ans;
     }
 };
+int main()
+{
+   return 0;
+}

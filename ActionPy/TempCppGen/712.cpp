@@ -36,3 +36,7 @@ public:
         return dp[n][m];
     }
 };
+int main()
+{
+   return 0;
+}

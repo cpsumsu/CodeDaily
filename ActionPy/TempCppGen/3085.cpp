@@ -26,3 +26,7 @@ public:
         return word.size() - ans;
     }
 };
+int main()
+{
+   return 0;
+}

@@ -68,3 +68,7 @@ public:
         return triangle;
     }
 };
+int main()
+{
+   return 0;
+}

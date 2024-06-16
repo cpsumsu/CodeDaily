@@ -26,3 +26,7 @@ public:
         return __builtin_popcount(n);
     }
 };
+int main()
+{
+   return 0;
+}

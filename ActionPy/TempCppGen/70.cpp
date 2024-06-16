@@ -71,3 +71,7 @@ public:
         return (pow(0.5 * (1 + sqrt(5)), n) - pow(0.5 * (1 - sqrt(5)), n)) / sqrt(5);
     }
 };
+int main()
+{
+   return 0;
+}

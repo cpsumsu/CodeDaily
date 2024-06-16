@@ -22,3 +22,7 @@ public:
         return dp[s.size()];
     }
 };
+int main()
+{
+   return 0;
+}

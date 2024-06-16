@@ -25,3 +25,7 @@ public:
         return dp[n][amount];
     }
 };
+int main()
+{
+   return 0;
+}

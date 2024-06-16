@@ -19,3 +19,7 @@ public:
         return dp[10000];
     }
 };
+int main()
+{
+   return 0;
+}

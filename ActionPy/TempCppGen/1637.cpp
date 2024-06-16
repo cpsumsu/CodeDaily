@@ -20,3 +20,7 @@ public:
         return max_wid;
     }
 };
+int main()
+{
+   return 0;
+}

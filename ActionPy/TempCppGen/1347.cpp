@@ -24,3 +24,7 @@ public:
         return cnt / 2;
     }
 };
+int main()
+{
+   return 0;
+}

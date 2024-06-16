@@ -43,3 +43,7 @@ public:
 // aab
 // aa b
 // ab
+int main()
+{
+   return 0;
+}

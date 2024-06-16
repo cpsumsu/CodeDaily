@@ -14,3 +14,7 @@ public:
         return a - b;
     }
 };;
+int main()
+{
+   return 0;
+}

@@ -34,3 +34,7 @@ public:
         return sum;
     }
 };
+int main()
+{
+   return 0;
+}

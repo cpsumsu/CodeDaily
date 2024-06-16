@@ -29,3 +29,7 @@ public:
         return m1 == m2;
     }
 };
+int main()
+{
+   return 0;
+}

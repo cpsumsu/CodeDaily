@@ -19,3 +19,7 @@ public:
         return dp[nums[0] % 2];
     }
 };
+int main()
+{
+   return 0;
+}

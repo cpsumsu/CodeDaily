@@ -14,3 +14,7 @@ public:
         return (double)(s - mx - mn) / (double)(salary.size() - 2);
     }
 };
+int main()
+{
+   return 0;
+}

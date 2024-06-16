@@ -36,3 +36,7 @@ public:
         return k % MOD * pow(k - 1, p - 1) % MOD;
     }
 };
+int main()
+{
+   return 0;
+}

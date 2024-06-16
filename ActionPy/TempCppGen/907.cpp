@@ -60,3 +60,7 @@ public:
         return ans % MOD;
     }
 };
+int main()
+{
+   return 0;
+}

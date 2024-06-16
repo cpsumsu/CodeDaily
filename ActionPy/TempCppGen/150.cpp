@@ -37,3 +37,7 @@ public:
      	return s.top();
     }
 };
+int main()
+{
+   return 0;
+}

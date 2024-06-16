@@ -33,3 +33,7 @@ public:
         return n - ans;
     }
 };
+int main()
+{
+   return 0;
+}

@@ -65,3 +65,7 @@ public:
         return a == INT_MAX ? -1 : a;
     }
 };
+int main()
+{
+   return 0;
+}

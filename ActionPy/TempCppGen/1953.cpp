@@ -27,3 +27,7 @@ public:
         return mx > s - mx + 1 ? (s - mx) * 2 + 1: s; 
     }
 };
+int main()
+{
+   return 0;
+}

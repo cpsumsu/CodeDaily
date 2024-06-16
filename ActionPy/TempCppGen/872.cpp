@@ -42,3 +42,7 @@ public:
         return l1 == l2;
     }
 };
+int main()
+{
+   return 0;
+}

@@ -22,3 +22,7 @@ public:
         return maxNum;
     }
 };
+int main()
+{
+   return 0;
+}

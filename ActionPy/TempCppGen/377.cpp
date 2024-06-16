@@ -19,3 +19,7 @@ public:
         return dp[target];
     }
 };
+int main()
+{
+   return 0;
+}

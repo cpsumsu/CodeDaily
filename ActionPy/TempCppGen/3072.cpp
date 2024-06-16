@@ -65,3 +65,7 @@ public:
         return a1;
     }
 };
+int main()
+{
+   return 0;
+}

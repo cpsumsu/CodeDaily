@@ -22,3 +22,7 @@ public:
         return dp[1][n];
     }
 };
+int main()
+{
+   return 0;
+}

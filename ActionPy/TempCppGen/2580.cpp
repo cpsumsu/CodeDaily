@@ -36,3 +36,7 @@ public:
         return (int)pow(2,cnt - 1);
     }
 };
+int main()
+{
+   return 0;
+}

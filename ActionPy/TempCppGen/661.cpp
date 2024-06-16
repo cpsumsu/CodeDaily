@@ -109,3 +109,7 @@ public:
         return img;
     }
 };
+int main()
+{
+   return 0;
+}

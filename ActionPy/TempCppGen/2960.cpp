@@ -19,3 +19,7 @@ public:
         return tests;
     }
 };
+int main()
+{
+   return 0;
+}

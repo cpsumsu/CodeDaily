@@ -58,3 +58,7 @@ public:
         return min(nh, h);
     }
 };
+int main()
+{
+   return 0;
+}

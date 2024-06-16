@@ -7,8 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-
-  build:
+  cpp11-build:
     runs-on: ubuntu-latest
     
     steps:

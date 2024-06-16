@@ -190,7 +190,7 @@ with open("ActionPy/test_cpp_11_build.py", "w+", encoding='utf-8') as file:
                     t.write("using namespace std;\n")
                     t.write(''.join([str(elem) for i,elem in enumerate(res)]))
 
-                file.write(f'@pytest.mark.parametrize("cpp_file, build_command", ["ActionPy/TempCppGen/{function_name}.cpp", {CPP11}])\n')
+                file.write(f'@pytest.mark.parametrize("cpp_file, build_command", [("ActionPy/TempCppGen/{function_name}.cpp", {CPP11})])\n')
                 file.write(f"def test_build_cpp_{function_name}(cpp_file, build_command):\n")
                 file.write("    try:\n")
                 file.write("        subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n")

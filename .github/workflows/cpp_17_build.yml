@@ -23,7 +23,7 @@ jobs:
     - name: Init unit test
       run: |
         pip install pytest
-        py ActionPy/SetUpForTest/setupforbuild17.py
+        python ActionPy/SetUpForTest/setupforbuild17.py
     - name: Start test_cpp_17_build
       run: |
         pytest ActionPy/test_cpp_17_build.py

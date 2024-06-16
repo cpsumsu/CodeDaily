@@ -2,9 +2,9 @@ import re
 import pytest
 import os
 
-CPP11 = '\"g++ -std=c++11 -o solution\"'
-CPP20 = '\"g++ -std=c++20 -o solution\"'
-CPP08 = '\"g++ -std=c++08 -o solution\"'
+CPP11 = 'g++ -std=c++11 -o'
+CPP20 = 'g++ -std=c++20 -o'
+CPP08 = 'g++ -std=c++08 -o'
 
 def extract_code_blocks(markdown_text):
     """
@@ -190,11 +190,11 @@ with open("ActionPy/test_cpp_11_build.py", "w+", encoding='utf-8') as file:
                     t.write("using namespace std;\n")
                     t.write(''.join([str(elem) for i,elem in enumerate(res)]))
 
-                file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", {CPP11})])\n')
+                file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", "{CPP11} ActionPy/TempCppGen/{function_name}.cpp")])\n')
                 file.write(f"def test_build_cpp_{function_name}(test_case):\n")
                 file.write('    cpp_file, build_command = test_case\n')
                 file.write("    try:\n")
-                file.write("        subprocess.check_call(build_command.split(), cwd=cpp_file, stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n")
+                file.write("        subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n")
                 file.write("    except subprocess.CalledProcessError as e:\n")
                 file.write("        pytest.fail(f\"Failed to build C++ code: {e}\")\n")
                 file.write("\n")

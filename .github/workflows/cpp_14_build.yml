@@ -1,0 +1,35 @@
+name: cpp14 Build auto Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  cpp14-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install c++ dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++ cmake
+        sudo apt install gcc-10 g++-10
+    - name: Init unit test
+      run: |
+        pip install pytest
+        python ActionPy/SetUpForTest/setupforbuild17.py
+        
+    - name: Start test_cpp_14_build
+      run: |
+        pytest ActionPy/test_cpp_14_build.py
+      shell: bash
+      env:
+        CC:   gcc-10
+        CXX:  g++-10

@@ -1,4 +1,4 @@
-# test_cpp_17_build.py.py
+# test_cpp_17_build.py
 import subprocess
 import pytest
 

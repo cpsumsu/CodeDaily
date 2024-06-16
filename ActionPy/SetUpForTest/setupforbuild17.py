@@ -57,7 +57,7 @@ def extract_code_blocks(markdown_text):
 
 
 with open(f"ActionPy/{CPP17PY}", "w+", encoding='utf-8') as file:
-    file.write(f"# {CPP17PY}.py\n")
+    file.write(f"# {CPP17PY}\n")
     file.write("import subprocess\n")
     file.write("import pytest\n")
     file.write("\n")

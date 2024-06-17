@@ -24,7 +24,7 @@ jobs:
     - name: Init unit test
       run: |
         pip install pytest
-        python ActionPy/SetUpForTest/setupforbuild.py
+        python ActionPy/SetUpForTest/setupforbuild20.py
         
     - name: Start test_cpp_20_build
       run: |

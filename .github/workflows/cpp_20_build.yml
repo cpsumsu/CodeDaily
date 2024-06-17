@@ -28,8 +28,9 @@ jobs:
         g++ --version
         gdb --version
         pip install pytest
+        pip install pytest-xdist
         python ActionPy/SetUpForTest/setupforbuild20.py
     - name: Start test_cpp_20_build
       run: |
-        pytest ActionPy/test_cpp_20_build.py
+        pytest -n auto ActionPy/test_cpp_20_build.py
       shell: bash

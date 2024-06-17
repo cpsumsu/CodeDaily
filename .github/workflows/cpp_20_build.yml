@@ -8,18 +8,7 @@ on:
 
 jobs:
   cpp17-build:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [ubuntu-latest]
-        build_type: [Release]
-        c_compiler: [gcc, clang]
-        include:
-          - os: ubuntu-latest
-            c_compiler: gcc
-            cpp_compiler: g++
+    runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v3
@@ -27,13 +16,17 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
+    - name: Set up GCC
+      uses: egor-tensin/setup-gcc@v1
+      with:
+        version: latest
+        platform: x64
     - name: Init unit test
       run: |
         pip install pytest
-        python ActionPy/SetUpForTest/setupforbuild20.py
+        python ActionPy/SetUpForTest/setupforbuild.py
         
     - name: Start test_cpp_20_build
       run: |
-        gcc --version
         pytest ActionPy/test_cpp_20_build.py
       shell: bash

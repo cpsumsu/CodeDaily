@@ -1,4 +1,4 @@
-name: cpp20 Build auto Test
+name: cpp Build auto Test
 
 on:
   push:
@@ -7,26 +7,23 @@ on:
     branches: [ "main" ]
 
 jobs:
-  cpp20-build:
-    runs-on: windows-latest
-    defaults:
-      run:
-        shell: msys2 {0}
+  cpp17-build:
+    runs-on: ubuntu-latest
+    
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-python@v5
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        python-version: '3.10' 
-    - name: Init pytest unit test
+        python-version: 3.9
+    - name: Set up MinGW
+      uses: egor-tensin/setup-mingw@v2  
+    - name: Init unit test
       run: |
         pip install pytest
         python ActionPy/SetUpForTest/setupforbuild20.py
-      shell: msys2 {0}
-    - uses: msys2/setup-msys2@v2
-      with:
-        msystem: UCRT64
-        update: true
-        install: git mingw-w64-ucrt-x86_64-gcc      
+        
     - name: Start test_cpp_20_build
       run: |
         pytest ActionPy/test_cpp_20_build.py
+      shell: bash

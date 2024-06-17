@@ -81,6 +81,7 @@ with open(f"ActionPy/{CPP20PY}", "w+", encoding='utf-8') as file:
                     t.write(''.join([str(elem) for i,elem in enumerate(res)]))
                     
                     # TODO: ADD more test function
+                    # (?<return_type>[\w<\&>]+) (?<function_name>\w+)\((?<param_type>\w+)<(?<param_type_arg>\w+)>& (?<param_name>\w+)\)
                     t.write("\n")
                     t.write("int main()\n")
                     t.write("{\n")

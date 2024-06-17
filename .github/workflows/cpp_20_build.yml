@@ -23,6 +23,9 @@ jobs:
         platform: x64
     - name: Init unit test
       run: |
+        gcc --version
+        g++ --version
+        gdb --version
         pip install pytest
         python ActionPy/SetUpForTest/setupforbuild20.py
         

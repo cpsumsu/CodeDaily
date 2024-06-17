@@ -31,7 +31,7 @@ def extract_code_blocks(markdown_text):
                         if " * Definition for a binary tree node." in elem:
                             data_structure.add("binary tree node")
                         elif "// Definition for a Node." in elem:
-                            data_structure.add("Node1")
+                            data_structure.add("Node")
                         elif " * Definition for singly-linked list." in elem:
                             data_structure.add("singly-linked list")
                         if "class Solution {" in elem:
@@ -49,45 +49,11 @@ def extract_code_blocks(markdown_text):
     
     for d in data_structure:
         if (d == "binary tree node"):
-            code_blocks.insert(0, """
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
-""")
-        elif (d == "Node1"):
-            code_blocks.insert(0, """
-class Node {
-public:
-    int val;
-    vector<Node*> children;
-
-    Node() {}
-
-    Node(int _val) {
-        val = _val;
-    }
-
-    Node(int _val, vector<Node*> _children) {
-        val = _val;
-        children = _children;
-    }
-};
-""")
+            code_blocks.insert(0, CppBuildHeader.BINARY_TREE)
+        elif (d == "Node"):
+            code_blocks.insert(0, CppBuildHeader.NODE)
         elif (d == "singly-linked list"):
-            code_blocks.insert(0, """
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
- };
-""")
+            code_blocks.insert(0, CppBuildHeader.SINGLE_LINKED_LIST)
     
     return code_blocks
 
@@ -111,25 +77,7 @@ with open(f"ActionPy/{CPP20PY}", "w+", encoding='utf-8') as file:
             if res is not None:
                 # ccode = res.group('ccode')
                 with open(f"ActionPy/TempCppGen/{function_name}.cpp", 'w+', encoding='utf-8') as t:
-                    t.write("#include <iostream>\n")
-                    t.write("#include <vector>\n")
-                    t.write("#include <algorithm>\n")
-                    t.write('#include <string>\n')
-                    t.write('#include <unordered_map>\n')
-                    t.write('#include <functional>\n')
-                    t.write('#include <limits.h>\n')
-                    t.write('#include <unordered_set>\n')
-                    t.write('#include <map>\n')
-                    t.write('#include <bitset>\n')
-                    t.write('#include <queue>\n')
-                    t.write('#include <stack>\n')
-                    t.write('#include <set>\n')
-                    t.write('#include <string.h>\n')
-                    t.write('#include <numeric>\n')
-                    t.write('#include <cassert>\n')
-                    t.write('#include <cmath>\n')
-                    t.write('#include <cstdint>\n')
-                    t.write("using namespace std;\n")
+                    t.write(CppBuildHeader.LEETCODE_HEADER)
                     t.write(''.join([str(elem) for i,elem in enumerate(res)]))
                     
                     # TODO: ADD more test function

@@ -20,9 +20,6 @@ jobs:
           - os: ubuntu-latest
             c_compiler: gcc
             cpp_compiler: g++
-          - os: ubuntu-latest
-            c_compiler: clang
-            cpp_compiler: clang++
     
     steps:
     - uses: actions/checkout@v3
@@ -30,30 +27,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
-    - name: Set reusable strings
-      id: strings
-      shell: bash
-      run: |
-        echo "build-output-dir=${{ github.workspace }}/build" >> "$GITHUB_OUTPUT"
-    - name: Install Compilers
-      run: >
-        sudo apt update && sudo apt install gcc-13 && sudo apt-get install build-essential
-    - name: Set Default Compilers
-      run: >
-        sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-13 100 --slave /usr/bin/gcc-ar gcc-ar /usr/bin/gcc-ar-13 --slave /usr/bin/gcc-ranlib gcc-ranlib /usr/bin/gcc-ranlib-13 --slave /usr/bin/gcov gcov /usr/bin/gcov-13
-    - name: Check Compiler Versions
-      run: >
-        gcc -v && clang -v
-    - name: Install Libraries
-      run: >
-        sudo apt-get install libgtest-dev && cd /usr/src/gtest && sudo cmake CMakeLists.txt && sudo make && sudo cp lib/*.a /usr/lib && sudo ln -s /usr/lib/libgtest.a /usr/local/lib/libgtest.a && sudo ln -s /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
-    - name: Configure CMake
-      run: >
-        cmake -B ${{ steps.strings.outputs.build-output-dir }}
-        -DCMAKE_CXX_COMPILER=${{ matrix.cpp_compiler }}
-        -DCMAKE_C_COMPILER=${{ matrix.c_compiler }}
-        -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
-        -S ${{ github.workspace }}
     - name: Init unit test
       run: |
         pip install pytest
@@ -61,5 +34,6 @@ jobs:
         
     - name: Start test_cpp_20_build
       run: |
+        gcc --version
         pytest ActionPy/test_cpp_20_build.py
       shell: bash

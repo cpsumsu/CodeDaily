@@ -1,13 +1,10 @@
 import re
 import pytest
 import os
+import CppBuildHeader
 
-CPP11 = 'g++ -std=c++11 -o'
-CPP14 = 'g++ -std=c++14 -o'
-CPP17 = 'g++ -std=c++17 -o'
-CPP11PY = 'test_cpp_11_build.py'
-CPP14PY = 'test_cpp_14_build.py'
-CPP17PY = 'test_cpp_17_build.py'
+CPP20 = 'g++ -std=c++20 -o'
+CPP20PY = 'test_cpp_20_build.py'
 
 def extract_code_blocks(markdown_text):
     """
@@ -23,6 +20,7 @@ def extract_code_blocks(markdown_text):
     current_block = []
     in_code_block = False
     solution_count = 0
+    data_structure = set()
     
     for line in markdown_text.split("\n"):
         if line.startswith("```"):
@@ -30,6 +28,12 @@ def extract_code_blocks(markdown_text):
                 if "class Solution {" in "\n".join(current_block):
                     modified_block = []
                     for elem in current_block:
+                        if " * Definition for a binary tree node." in elem:
+                            data_structure.add("binary tree node")
+                        elif "// Definition for a Node." in elem:
+                            data_structure.add("Node1")
+                        elif " * Definition for singly-linked list." in elem:
+                            data_structure.add("singly-linked list")
                         if "class Solution {" in elem:
                             modified_block.append(f"\n\nclass Solution_{chr(solution_count + 97)} {{")
                             solution_count += 1
@@ -43,21 +47,53 @@ def extract_code_blocks(markdown_text):
         elif in_code_block:
             current_block.append(line)
     
-    if current_block and "class Solution {" in "\n".join(current_block):
-        modified_block = []
-        for elem in current_block:
-            if "class Solution {" in elem:
-                modified_block.append(f"\n\nclass Solution_{chr(solution_count + 97)} {{")
-                solution_count += 1
-            else:
-                modified_block.append(elem)
-        code_blocks.append("\n".join(modified_block))
+    for d in data_structure:
+        if (d == "binary tree node"):
+            code_blocks.insert(0, """
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+""")
+        elif (d == "Node1"):
+            code_blocks.insert(0, """
+class Node {
+public:
+    int val;
+    vector<Node*> children;
+
+    Node() {}
+
+    Node(int _val) {
+        val = _val;
+    }
+
+    Node(int _val, vector<Node*> _children) {
+        val = _val;
+        children = _children;
+    }
+};
+""")
+        elif (d == "singly-linked list"):
+            code_blocks.insert(0, """
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+ };
+""")
     
     return code_blocks
 
 
-with open(f"ActionPy/{CPP17PY}", "w+", encoding='utf-8') as file:
-    file.write(f"# {CPP17PY}\n")
+with open(f"ActionPy/{CPP20PY}", "w+", encoding='utf-8') as file:
+    file.write(f"# {CPP20PY}.py\n")
     file.write("import subprocess\n")
     file.write("import pytest\n")
     file.write("\n")
@@ -82,6 +118,17 @@ with open(f"ActionPy/{CPP17PY}", "w+", encoding='utf-8') as file:
                     t.write('#include <unordered_map>\n')
                     t.write('#include <functional>\n')
                     t.write('#include <limits.h>\n')
+                    t.write('#include <unordered_set>\n')
+                    t.write('#include <map>\n')
+                    t.write('#include <bitset>\n')
+                    t.write('#include <queue>\n')
+                    t.write('#include <stack>\n')
+                    t.write('#include <set>\n')
+                    t.write('#include <string.h>\n')
+                    t.write('#include <numeric>\n')
+                    t.write('#include <cassert>\n')
+                    t.write('#include <cmath>\n')
+                    t.write('#include <cstdint>\n')
                     t.write("using namespace std;\n")
                     t.write(''.join([str(elem) for i,elem in enumerate(res)]))
                     
@@ -93,14 +140,14 @@ with open(f"ActionPy/{CPP17PY}", "w+", encoding='utf-8') as file:
                     t.write("}")
 
 
-                file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", "{CPP17} ActionPy/TempCppGen/cpp17/{function_name}Gen ActionPy/TempCppGen/{function_name}.cpp")])\n')
+                file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", "{CPP20} ActionPy/TempCppGen/cpp20/{function_name}Gen ActionPy/TempCppGen/{function_name}.cpp")])\n')
                 file.write(f"def test_build_cpp_{function_name}(test_case):\n")
                 file.write('    cpp_file, build_command = test_case\n')
                 file.write("    try:\n")
                 file.write("        subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n")
                 file.write("    except subprocess.CalledProcessError as e:\n")
-                # file.write("        pytest.fail(f\"Failed to build C++ code: {e}\")\n")
-                file.write("        pass\n")
+                file.write("        pytest.fail(f\"Failed to build C++ code: {e}\")\n")
+                # file.write("        pass\n")
                 file.write("\n")
     # file.write("# 在其他地方調用測試函數\n")
     # file.write("test_build_cpp(\"solution.cpp\", \"g++ -std=c++11 -o solution\")\n")

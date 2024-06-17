@@ -3,6 +3,19 @@
 #include <algorithm>
 #include <string>
 #include <unordered_map>
+#include <functional>
+#include <limits.h>
+#include <unordered_set>
+#include <map>
+#include <bitset>
+#include <queue>
+#include <stack>
+#include <set>
+#include <string.h>
+#include <numeric>
+#include <cassert>
+#include <cmath>
+#include <cstdint>
 using namespace std;
 
 
@@ -41,7 +54,7 @@ public:
         }
 
         function<pair<int,int>(int,int)> dfs = [&](int x, int fa) -> pair<int, int> {
-            int not_halve =  * cnt[x];
+            int not_halve = price[x] * cnt[x];
             int halve = not_halve / 2;
             for (int y : g[x])
             {

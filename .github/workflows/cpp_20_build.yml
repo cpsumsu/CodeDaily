@@ -1,0 +1,33 @@
+name: cpp20 Build auto Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  cpp20-build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - uses: msys2/setup-msys2@v2
+      with:
+        msystem: UCRT64
+        update: true
+        install: git mingw-w64-ucrt-x86_64-gcc
+    - name: Init unit test
+      run: |
+        pip install pytest
+        python ActionPy/SetUpForTest/setupforbuild17.py
+        
+    - name: Start test_cpp_20_build
+      run: |
+        pytest ActionPy/test_cpp_20_build.py

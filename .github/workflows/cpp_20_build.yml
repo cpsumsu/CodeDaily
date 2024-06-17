@@ -23,6 +23,8 @@ jobs:
         platform: x64
     - name: Init unit test
       run: |
+        sudo apt-get update
+        sudo apt-get install build-essential gdb
         gcc --version
         g++ --version
         gdb --version

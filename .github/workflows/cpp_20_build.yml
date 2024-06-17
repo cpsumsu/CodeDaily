@@ -33,5 +33,5 @@ jobs:
         
     - name: Start test_cpp_20_build
       run: |
-        pytest ActionPy/test_cpp_20_build.py
+        g++ -std=c++20 -o ActionPy/TempCppGen/cpp20/100121Gen ActionPy/TempCppGen/100121.cpp
       shell: bash

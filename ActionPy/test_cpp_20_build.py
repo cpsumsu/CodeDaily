@@ -658,6 +658,14 @@ def test_build_cpp_228(test_case):
     except subprocess.CalledProcessError as e:
         pytest.fail(f"Failed to build C++ code: {e}")
 
+@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/2288.cpp", "g++ -std=c++20 -o ActionPy/TempCppGen/cpp20/2288Gen ActionPy/TempCppGen/2288.cpp")])
+def test_build_cpp_2288(test_case):
+    cpp_file, build_command = test_case
+    try:
+        subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except subprocess.CalledProcessError as e:
+        pytest.fail(f"Failed to build C++ code: {e}")
+
 @pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/2304.cpp", "g++ -std=c++20 -o ActionPy/TempCppGen/cpp20/2304Gen ActionPy/TempCppGen/2304.cpp")])
 def test_build_cpp_2304(test_case):
     cpp_file, build_command = test_case
@@ -1364,6 +1372,14 @@ def test_build_cpp_516(test_case):
 
 @pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/518.cpp", "g++ -std=c++20 -o ActionPy/TempCppGen/cpp20/518Gen ActionPy/TempCppGen/518.cpp")])
 def test_build_cpp_518(test_case):
+    cpp_file, build_command = test_case
+    try:
+        subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except subprocess.CalledProcessError as e:
+        pytest.fail(f"Failed to build C++ code: {e}")
+
+@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/522.cpp", "g++ -std=c++20 -o ActionPy/TempCppGen/cpp20/522Gen ActionPy/TempCppGen/522.cpp")])
+def test_build_cpp_522(test_case):
     cpp_file, build_command = test_case
     try:
         subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)

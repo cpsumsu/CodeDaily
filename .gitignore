@@ -51,3 +51,4 @@ venv.bak/
 
 # python cache
 __pycache__/
+ActionPy/TempCppGen/*.cpp

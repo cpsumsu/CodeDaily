@@ -85,8 +85,6 @@ with open(f"ActionPy/{CPP20PY}", "w+", encoding='utf-8') as file:
                     t.write("{\n")
                     t.write("   return 0;\n")
                     t.write("}")
-                    if (function_name == "22"):
-                        t.write("badboy")
                 file_paths.append(function_name)
 
     file.write(f'@pytest.mark.parametrize("test_case", [\n')

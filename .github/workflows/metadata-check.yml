@@ -2,27 +2,27 @@ name: Metadata Format Check
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   check-metadata-Format:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.9
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pytest
-        pip install pytest-xdist
-    - name: Getting all Markdown Files
-      run: |
-        python ActionPy/SetUpForTest/setupfortest.py
-    - name: Check Metadata Format
-      run: |
-        pytest -n auto ActionPy/test_metadata.py 
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+          pip install pytest-xdist
+      - name: Getting all Markdown Files
+        run: |
+          python ActionPy/SetUpForTest/setupfortest.py
+      - name: Check Metadata Format
+        run: |
+          pytest ActionPy/test_metadata.py

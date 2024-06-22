@@ -25,4 +25,4 @@ def metadata_format(file_path):
             pytest.fail(f'Tags is missing')
         
         # Check for extra properties
-        pass  # Ignore the "title" property
+        # Ignore the "title" property

@@ -5,7 +5,6 @@ import re
 import pandas as pd
 
 
-
 def LC_generate_markdown_file(directory, output_file):
     url = "https://raw.githubusercontent.com/zerotrac/leetcode_problem_rating/main/ratings.txt"
     df = pd.read_table(url)

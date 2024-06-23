@@ -41,20 +41,17 @@ LEETCODE_HEADER = """#include <iostream>
 #include <string>
 #include <unordered_map>
 #include <functional>
-#include <limits.h>
+#include <climits>
 #include <unordered_set>
 #include <map>
 #include <bitset>
 #include <queue>
 #include <stack>
 #include <set>
-#include <string.h>
+#include <cstring>
+#include <string>
 #include <numeric>
-#include <cassert>
 #include <cmath>
-#include <cstdint>
-#include <sstream>
-#include <iomanip>
 using namespace std;
 """
 

@@ -25,4 +25,4 @@ jobs:
           python ActionPy/SetUpForTest/setupfortest.py
       - name: Check Metadata Format
         run: |
-          pytest ActionPy/test_metadata.py
+          pytest -n auto ActionPy/test_metadata.py

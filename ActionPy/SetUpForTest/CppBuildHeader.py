@@ -52,7 +52,9 @@ LEETCODE_HEADER = """#include <iostream>
 #include <string>
 #include <numeric>
 #include <cmath>
-#incldue <cassert>
+#include <cstdint>
+#include <sstream>
+#include <cassert>
 #include <iomanip>
 using namespace std;
 """

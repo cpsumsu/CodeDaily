@@ -84,6 +84,7 @@
 | [2246. 相邻字符不同的最长路径](./leetcode/2246.%20相邻字符不同的最长路径.md) | 2126.3922279277 | Hard | 樹形dp |
 | [225. 用队列实现栈](./leetcode/225.%20用队列实现栈.md) |  | Easy | Queue |
 | [228. Summary Ranges](./leetcode/228.%20Summary%20Ranges.md) |  | Easy | implementation |
+| [2288. 价格减免](./leetcode/2288.%20价格减免.md) | 1577.1141767118 | Medium | 模擬 |
 | [2304. 网格中的最小路径代价](./leetcode/2304.%20网格中的最小路径代价.md) | 1658.3530344788 | Medium | Dp |
 | [2312. 卖木头块](./leetcode/2312.%20卖木头块.md) | 2363.0240184484 | Hard | Dp |
 | [232. 用栈实现队列](./leetcode/232.%20用栈实现队列.md) |  | Easy | Stack |
@@ -113,8 +114,10 @@
 | [2673. 使二叉树所有路径值相等的最小代价](./leetcode/2673.%20使二叉树所有路径值相等的最小代价.md) | 1917.1049672432 | Medium | Greedy |
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |
 | [2707. 字符串中的额外字符](./leetcode/2707.%20字符串中的额外字符.md) | 1735.8505509901 | Medium | Hash Map, dp |
+| [2713. 矩阵中严格递增的单元格数](./leetcode/2713.%20矩阵中严格递增的单元格数.md) | 2387.3525635254 | Hard | 遞推 |
 | [2739. 总行驶距离](./leetcode/2739.%20总行驶距离.md) | 1262.100652797 | Easy | math |
 | [274. H-Index](./leetcode/274.%20H-Index.md) |  | Medium | implementation |
+| [2748. 美丽下标对的数目](./leetcode/2748.%20美丽下标对的数目.md) | 1301.1576743638 | Easy | hash map |
 | [2765. 最长交替子数组](./leetcode/2765.%20最长交替子数组.md) | 1580.9748095835 | Easy | Array |
 | [2766. 重新放置石块](./leetcode/2766.%20重新放置石块.md) | 1613.2485081262 | Medium | 哈希表 |
 | [2786. 访问数组中的位置使分数最大](./leetcode/2786.%20访问数组中的位置使分数最大.md) | 1732.5146472785 | Medium | 哈希表 |
@@ -169,6 +172,7 @@
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
 | [462. 最小操作次数使数组元素相等 II](./leetcode/462.%20最小操作次数使数组元素相等%20II.md) |  | Medium | 中位數貪心 |
 | [5. Longest Palindromic Substring](./leetcode/5.%20Longest%20Palindromic%20Substring.md) |  | Medium | String, dp, Manacher |
+| [503. 下一个更大元素 II](./leetcode/503.%20下一个更大元素%20II.md) |  | Medium | 單調棧 |
 | [514. 自由之路](./leetcode/514.%20自由之路.md) |  | Hard | dp |
 | [516. Longest Palindromic Subsequence](./leetcode/516.%20Longest%20Palindromic%20Subsequence.md) |  | Medium | dp |
 | [516. 最长回文子序列](./leetcode/516.%20最长回文子序列.md) |  | Medium | dp |

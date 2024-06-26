@@ -53,3 +53,4 @@ venv.bak/
 __pycache__/
 ActionPy/TempCppGen/*.cpp
 .pytest_cache/
+/ActionPy/TempPyGen

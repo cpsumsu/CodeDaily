@@ -58,7 +58,7 @@ def extract_code_blocks(markdown_text):
 
 
 with open(f"ActionPy/{CPP20PY}", "w+", encoding='utf-8') as file:
-    file.write(f"# {CPP20PY}.py\n")
+    file.write(f"# {CPP20PY}\n")
     file.write("import subprocess\n")
     file.write("import pytest\n")
     file.write("\n")
@@ -73,7 +73,7 @@ with open(f"ActionPy/{CPP20PY}", "w+", encoding='utf-8') as file:
                 
                 res = extract_code_blocks(c)
 
-                if res is not None:
+                if len(res) >= 1:
                     # ccode = res.group('ccode')
                     with open(f"ActionPy/TempCppGen/{function_name}.cpp", 'w+', encoding='utf-8') as t:
                         t.write(CppBuildHeader.LEETCODE_HEADER)
@@ -87,13 +87,13 @@ with open(f"ActionPy/{CPP20PY}", "w+", encoding='utf-8') as file:
                         t.write("   return 0;\n")
                         t.write("}")
 
-                file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", "{CPP20} ActionPy/TempCppGen/cpp20/{function_name}Gen ActionPy/TempCppGen/{function_name}.cpp")])\n')
-                file.write(f"def test_build_cpp_{function_name}(test_case):\n")
-                file.write('    cpp_file, build_command = test_case\n')
-                file.write("    try:\n")
-                file.write("        subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n")
-                file.write("    except subprocess.CalledProcessError as e:\n")
-                file.write("        pytest.fail(f\"Failed to build C++ code: {e}\")\n")
+                    file.write(f'@pytest.mark.parametrize("test_case", [("ActionPy/TempCppGen/{function_name}.cpp", "{CPP20} ActionPy/TempCppGen/cpp20/{function_name}Gen ActionPy/TempCppGen/{function_name}.cpp")])\n')
+                    file.write(f"def test_build_cpp_{function_name}(test_case):\n")
+                    file.write('    cpp_file, build_command = test_case\n')
+                    file.write("    try:\n")
+                    file.write("        subprocess.check_call(build_command.split(), stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n")
+                    file.write("    except subprocess.CalledProcessError as e:\n")
+                    file.write("        pytest.fail(f\"Failed to build C++ code: {e}\")\n")
                 # file.write("        pass\n")
                 file.write("\n")
     else:

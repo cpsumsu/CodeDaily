@@ -1,0 +1,26 @@
+name: python Build auto Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  python-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Init unit test
+      run: |
+        pip install pytest
+        pip install pytest-xdist
+        python ActionPy/SetUpForTest/setupforPython.py
+    - name: Start test_python_build
+      run: |
+        pytest -n auto ActionPy/test_python_build.py
+      shell: bash

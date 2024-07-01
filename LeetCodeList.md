@@ -71,6 +71,7 @@
 | [2007. 从双倍数组中还原原数组](./leetcode/2007.%20从双倍数组中还原原数组.md) | 1557.017055582 | Medium | 哈希表 |
 | [2009. 使数组连续的最少操作数](./leetcode/2009.%20使数组连续的最少操作数.md) | 2084.4980206639 | Hard | slibing window |
 | [205. Isomorphic Strings](./leetcode/205.%20Isomorphic%20Strings.md) |  | Easy | implementation |
+| [2065. 最大化一张图中的路径价值](./leetcode/2065.%20最大化一张图中的路径价值.md) | 2178.4249114144 | Hard | dfs |
 | [2085. 统计出现过一次的公共字符串](./leetcode/2085.%20统计出现过一次的公共字符串.md) | 1307.4608905199 | Easy | hash map |
 | [209. 长度最小的子数组](./leetcode/209.%20长度最小的子数组.md) |  | Medium | 滑動窗口 |
 | [2129. 将标题首字母大写](./leetcode/2129.%20将标题首字母大写.md) | 1274.881752217 | Easy | 雙指針 |
@@ -115,8 +116,11 @@
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |
 | [2707. 字符串中的额外字符](./leetcode/2707.%20字符串中的额外字符.md) | 1735.8505509901 | Medium | Hash Map, dp |
 | [2713. 矩阵中严格递增的单元格数](./leetcode/2713.%20矩阵中严格递增的单元格数.md) | 2387.3525635254 | Hard | 遞推 |
+| [2732. 找到矩阵中的好子集](./leetcode/2732.%20找到矩阵中的好子集.md) | 2239.7101856677 | Hard | 狀態壓縮 |
+| [2734. 执行子串操作后的字典序最小字符串](./leetcode/2734.%20执行子串操作后的字典序最小字符串.md) | 1405.123188264 | Easy | string |
 | [2739. 总行驶距离](./leetcode/2739.%20总行驶距离.md) | 1262.100652797 | Easy | math |
 | [274. H-Index](./leetcode/274.%20H-Index.md) |  | Medium | implementation |
+| [2742. 给墙壁刷油漆](./leetcode/2742.%20给墙壁刷油漆.md) | 2424.6761561972 | Hard | hash map, 0-1背包, dp |
 | [2748. 美丽下标对的数目](./leetcode/2748.%20美丽下标对的数目.md) | 1301.1576743638 | Easy | hash map |
 | [2765. 最长交替子数组](./leetcode/2765.%20最长交替子数组.md) | 1580.9748095835 | Easy | Array |
 | [2766. 重新放置石块](./leetcode/2766.%20重新放置石块.md) | 1613.2485081262 | Medium | 哈希表 |
@@ -178,6 +182,7 @@
 | [516. 最长回文子序列](./leetcode/516.%20最长回文子序列.md) |  | Medium | dp |
 | [518. 零钱兑换 II](./leetcode/518.%20零钱兑换%20II.md) |  | Medium | dp |
 | [522. 最长特殊序列 II](./leetcode/522.%20最长特殊序列%20II.md) |  | Medium | 雙指針 |
+| [526. 优美的排列](./leetcode/526.%20优美的排列.md) |  | Medium | 狀態壓縮 |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
 | [57. Insert Interval](./leetcode/57.%20Insert%20Interval.md) |  | Medium | slibing window |
 | [58. Length of Last Word](./leetcode/58.%20Length%20of%20Last%20Word.md) |  | Easy | implementation |

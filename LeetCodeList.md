@@ -160,6 +160,7 @@
 | [3085. 成为 K 特殊字符串需要删除的最少字符数](./leetcode/3085.%20成为%20K%20特殊字符串需要删除的最少字符数.md) | 1764.7072848367 | Medium | 枚舉 |
 | [3090. Maximum Length Substring With Two Occurrences](./leetcode/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.md) | 1329.4732452623 | Easy | slibing window |
 | [3099. 哈沙德数](./leetcode/3099.%20哈沙德数.md) | 1100.5332505219 | Easy | 枚舉 |
+| [3115. 质数的最大距离](./leetcode/3115.%20质数的最大距离.md) | 1294.4633357092 | Medium | 枚舉 |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  | Medium | monotonic stack |
 | [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  | Medium | DFS, Tree DP |

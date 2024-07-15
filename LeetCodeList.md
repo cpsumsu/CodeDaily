@@ -148,6 +148,7 @@
 | [2958. Length of Longest Subarray With at Most K Frequency](./leetcode/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.md) | 1535.3680469616 | Medium | Sliding Window |
 | [2960. Count Tested Devices After Test Operations](./leetcode/2960.%20Count%20Tested%20Devices%20After%20Test%20Operations.md) | 1169.4209117977 | Easy | implementation |
 | [2962. Count Subarrays Where Max Element Appears at Least K Times](./leetcode/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.md) | 1700.8505554268 | Medium | slibing window |
+| [2970. 统计移除递增子数组的数目 I](./leetcode/2970.%20统计移除递增子数组的数目%20I.md) | 1563.2283814548 | Easy | 模擬 |
 | [299. 猜数字游戏](./leetcode/299.%20猜数字游戏.md) |  | Medium | hash map |
 | [3. 无重复字符的最长子串](./leetcode/3.%20无重复字符的最长子串.md) |  | Medium | 雙指針 |
 | [300. Longest Increasing Subsequence](./leetcode/300.%20Longest%20Increasing%20Subsequence.md) |  | Medium | longest-increasing-subsequences, dp |

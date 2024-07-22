@@ -38,6 +38,7 @@
 | [1491. 去掉最低工资和最高工资后的工资平均值](./leetcode/1491.%20去掉最低工资和最高工资后的工资平均值.md) | 1201.3497763919 | Easy | 模擬 |
 | [15. 三数之和](./leetcode/15.%20三数之和.md) |  | Medium | 三指針 |
 | [150. Evaluate Reverse Polish Notation](./leetcode/150.%20Evaluate%20Reverse%20Polish%20Notation.md) |  | Easy | implementation, notation |
+| [1514. 概率最大的路径](./leetcode/1514.%20概率最大的路径.md) | 1846.4077077642 | Medium | Dijkstra |
 | [1544. Make The String Great](./leetcode/1544.%20Make%20The%20String%20Great.md) | 1344.226133202 | Medium | slibing window |
 | [1553. 吃掉 N 个橘子的最少天数](./leetcode/1553.%20吃掉%20N%20个橘子的最少天数.md) | 2048.0976546787 | Hard | dfs |
 | [1561. Maximum Number of Coins You Can Get](./leetcode/1561.%20Maximum%20Number%20of%20Coins%20You%20Can%20Get.md) | 1405.5786892723 | Medium | implementation |
@@ -160,7 +161,9 @@
 | [3084. 统计以给定字符开头和结尾的子字符串总数](./leetcode/3084.%20统计以给定字符开头和结尾的子字符串总数.md) | 1323.7856529722 | Medium | math |
 | [3085. 成为 K 特殊字符串需要删除的最少字符数](./leetcode/3085.%20成为%20K%20特殊字符串需要删除的最少字符数.md) | 1764.7072848367 | Medium | 枚舉 |
 | [3090. Maximum Length Substring With Two Occurrences](./leetcode/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.md) | 1329.4732452623 | Easy | slibing window |
+| [3096. 得到更多分数的最少关卡数目](./leetcode/3096.%20得到更多分数的最少关卡数目.md) | 1500.9381282198 | Medium | prefix sum |
 | [3099. 哈沙德数](./leetcode/3099.%20哈沙德数.md) | 1100.5332505219 | Easy | 枚舉 |
+| [3112. 访问消失节点的最少时间](./leetcode/3112.%20访问消失节点的最少时间.md) | 1756.963553993 | Medium | Dijkstra |
 | [3115. 质数的最大距离](./leetcode/3115.%20质数的最大距离.md) | 1294.4633357092 | Medium | 枚舉 |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  | Medium | monotonic stack |
 | [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
@@ -206,6 +209,7 @@
 | [72. Edit Distance](./leetcode/72.%20Edit%20Distance.md) |  | Medium | String, dp |
 | [739. 每日温度](./leetcode/739.%20每日温度.md) |  | Medium | 單調棧 |
 | [740. Delete and Earn](./leetcode/740.%20Delete%20and%20Earn.md) |  | Medium | dp |
+| [743. 网络延迟时间](./leetcode/743.%20网络延迟时间.md) |  | Medium | Dijkstra |
 | [746. 使用最小花费爬楼梯](./leetcode/746.%20使用最小花费爬楼梯.md) | 1358.3561730566 | easy | dp |
 | [82. 删除排序链表中的重复元素 II](./leetcode/82.%20删除排序链表中的重复元素%20II.md) |  | Easy | linked list |
 | [828. 统计子串中的唯一字符](./leetcode/828.%20统计子串中的唯一字符.md) | 2034.4067304341 | Hard | String, enumerate |

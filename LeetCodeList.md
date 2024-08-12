@@ -200,6 +200,7 @@
 | [64. Minimum Path Sum](./leetcode/64.%20Minimum%20Path%20Sum.md) |  | Easy | dp, optimisation |
 | [661. Image Smoother](./leetcode/661.%20Image%20Smoother.md) |  | Medium | matrix, bit manipulation |
 | [670. 最大交换](./leetcode/670.%20最大交换.md) |  | Medium | string |
+| [676. 实现一个魔法字典](./leetcode/676.%20实现一个魔法字典.md) |  | Medium | string |
 | [687. 最长同值路径](./leetcode/687.%20最长同值路径.md) |  | Medium | 樹形dp |
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
 | [70. Climbing Stairs](./leetcode/70.%20Climbing%20Stairs.md) |  | Easy | dp, memoriation |

@@ -166,6 +166,7 @@
 | [3099. 哈沙德数](./leetcode/3099.%20哈沙德数.md) | 1100.5332505219 | Easy | 枚舉 |
 | [3112. 访问消失节点的最少时间](./leetcode/3112.%20访问消失节点的最少时间.md) | 1756.963553993 | Medium | Dijkstra |
 | [3115. 质数的最大距离](./leetcode/3115.%20质数的最大距离.md) | 1294.4633357092 | Medium | 枚舉 |
+| [3152. 特殊数组 II](./leetcode/3152.%20特殊数组%20II.md) | 1523.2643084719 | Medium | 枚舉 |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  | Medium | monotonic stack |
 | [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  | Medium | DFS, Tree DP |
@@ -190,6 +191,7 @@
 | [522. 最长特殊序列 II](./leetcode/522.%20最长特殊序列%20II.md) |  | Medium | 雙指針 |
 | [526. 优美的排列](./leetcode/526.%20优美的排列.md) |  | Medium | 狀態壓縮 |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
+| [551. 学生出勤记录 I](./leetcode/551.%20学生出勤记录%20I.md) |  | Easy | 模擬 |
 | [57. Insert Interval](./leetcode/57.%20Insert%20Interval.md) |  | Medium | slibing window |
 | [58. Length of Last Word](./leetcode/58.%20Length%20of%20Last%20Word.md) |  | Easy | implementation |
 | [589. N 叉树的前序遍历](./leetcode/589.%20N%20叉树的前序遍历.md) |  | Easy | bfs |

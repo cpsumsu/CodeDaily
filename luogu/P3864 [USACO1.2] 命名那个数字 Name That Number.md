@@ -7,13 +7,15 @@ tags: ["模擬"]
 
 # 思路
 > 模擬
+> 0 技巧，每個都試一下
+> 難點在於如何從數字轉換字母
 
 # 复杂度
 - 时间复杂度:
 > $O(n^2)$
 
 - 空间复杂度:
-> $O(1)$
+> $O(n^2)$
   
 
 # Code
@@ -53,7 +55,7 @@ int gcd(int a, int b)
 // ABC DEF GHI JKL MNO PQRS TUV WXY
 const string AtoZ = "2223334445556667 77888999";
 
-bool cmp(string name, string number)
+bool cmp(string &name, string &number)
 {
 	int n = number.size();
 	for (int j = 0; j < n; ++j)
@@ -66,7 +68,7 @@ bool cmp(string name, string number)
 	return true;
 }
 
-void p(vector<string> names,string number)
+void p(vector<string> &names, string &number)
 {
 	int n = names.size(), m = number.size();
 	bool NoAns = true;

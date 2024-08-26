@@ -22,7 +22,7 @@ def extract_code_blocks(markdown_text):
     data_structure = set()
     
     for line in markdown_text.split("\n"):
-        if line.startswith("```"):
+        if line.startswith("```") and not line.startswith("```java"):
             if in_code_block:
                 if "class Solution {" in "\n".join(current_block):
                     modified_block = []

@@ -192,6 +192,7 @@
 | [526. 优美的排列](./leetcode/526.%20优美的排列.md) |  | Medium | 狀態壓縮 |
 | [53. 最大子数组和](./leetcode/53.%20最大子数组和.md) |  | Medium | Greedy, Dp, Array |
 | [551. 学生出勤记录 I](./leetcode/551.%20学生出勤记录%20I.md) |  | Easy | 模擬 |
+| [552. 学生出勤记录 II](./leetcode/552.%20学生出勤记录%20II.md) |  | Hard | dp |
 | [57. Insert Interval](./leetcode/57.%20Insert%20Interval.md) |  | Medium | slibing window |
 | [58. Length of Last Word](./leetcode/58.%20Length%20of%20Last%20Word.md) |  | Easy | implementation |
 | [589. N 叉树的前序遍历](./leetcode/589.%20N%20叉树的前序遍历.md) |  | Easy | bfs |
@@ -206,6 +207,7 @@
 | [687. 最长同值路径](./leetcode/687.%20最长同值路径.md) |  | Medium | 樹形dp |
 | [689. 三个无重叠子数组的最大和](./leetcode/689.%20三个无重叠子数组的最大和.md) |  | Hard | Dp, Greedy |
 | [70. Climbing Stairs](./leetcode/70.%20Climbing%20Stairs.md) |  | Easy | dp, memoriation |
+| [704. Binary Search](./leetcode/704.%20Binary%20Search.md) |  | easy | binary search |
 | [705. 设计哈希集合](./leetcode/705.%20设计哈希集合.md) |  | Easy | 模擬 |
 | [706. 设计哈希映射](./leetcode/706.%20设计哈希映射.md) |  | Easy | 模擬 |
 | [712. Minimum ASCII Delete Sum for Two Strings](./leetcode/712.%20Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.md) |  | Medium | String, dp |

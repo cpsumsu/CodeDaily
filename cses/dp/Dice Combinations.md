@@ -1,5 +1,5 @@
 ---
-Difficulty: "Hard"
+Difficulty: "fundamental"
 tags: ["dp"]
 ---
 
@@ -7,9 +7,10 @@ tags: ["dp"]
 
 # 思路
 - bottom-up dynamic programming approach
+- 目標： 找在 i 值中的所有 combination，並不同 element 的順序不重要，例如 （1 + 1 + 1）, 這裏只能算一種。 (1 + 2) -> (1 + 2) and (2 + 1)，算兩種
 - i 代表得到的值，j 代表 1 - 6
 - 每一格 dp[i] 代表在目前 i 值中，可以得到的最大值。兩個 for loop 表示：在 i 值中，看下 i - j 中加上 1 - 6 來試試那個值能不能得到 i 值 -> `dp[i - j]`, 如果有符合的 i - j 值, 就加上它的總量
-- dp.back() 代表在 T 值中能得到的最大的值（number of ways)
+- dp.back() 代表在 T 值中能得到的最大的值
 
 
 ```cpp

@@ -13,6 +13,7 @@
 | [P1211 [USACO1.3] 牛式 Prime Cryptarithm](./luogu/P1211%20[USACO1.3]%20牛式%20Prime%20Cryptarithm.md) | 普及− | 枚舉 |
 | [P1214 [USACO1.4] 等差数列 Arithmetic Progressions](./luogu/P1214%20[USACO1.4]%20等差数列%20Arithmetic%20Progressions.md) | 普及+/提高 | 枚舉 |
 | [P1352 没有上司的舞会](./luogu/P1352%20没有上司的舞会.md) | 普及/提高− | Tree DP |
+| [P1444 [USACO1.3] 虫洞 wormhole](./luogu/P1444%20[USACO1.3]%20虫洞%20wormhole.md) | 普及/提高− | dfs |
 | [P1460 [USACO2.1] 健康的荷斯坦奶牛 Healthy Holsteins](./luogu/P1460%20[USACO2.1]%20健康的荷斯坦奶牛%20Healthy%20Holsteins.md) | 普及− | DFS |
 | [P1461 [USACO2.1] 海明码 Hamming Codes](./luogu/P1461%20[USACO2.1]%20海明码%20Hamming%20Codes.md) | 普及/提高− | 枚舉, 二進制 |
 | [P1465 [USACO2.2] 序言页码 Preface Numbering](./luogu/P1465%20[USACO2.2]%20序言页码%20Preface%20Numbering.md) | 普及/提高− | 構造, 羅馬數字 |

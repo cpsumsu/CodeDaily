@@ -117,6 +117,7 @@
 | [2673. 使二叉树所有路径值相等的最小代价](./leetcode/2673.%20使二叉树所有路径值相等的最小代价.md) | 1917.1049672432 | Medium | Greedy |
 | [2696. 删除子串后的字符串最小长度](./leetcode/2696.%20删除子串后的字符串最小长度.md) | 1282.3870247003 | Easy | Regex |
 | [2707. 字符串中的额外字符](./leetcode/2707.%20字符串中的额外字符.md) | 1735.8505509901 | Medium | Hash Map, dp |
+| [2708. 一个小组的最大实力值](./leetcode/2708.%20一个小组的最大实力值.md) | 1502.2633100489 | Medium | 模擬 |
 | [2713. 矩阵中严格递增的单元格数](./leetcode/2713.%20矩阵中严格递增的单元格数.md) | 2387.3525635254 | Hard | 遞推 |
 | [2732. 找到矩阵中的好子集](./leetcode/2732.%20找到矩阵中的好子集.md) | 2239.7101856677 | Hard | 狀態壓縮 |
 | [2734. 执行子串操作后的字典序最小字符串](./leetcode/2734.%20执行子串操作后的字典序最小字符串.md) | 1405.123188264 | Easy | string |
@@ -138,6 +139,7 @@
 | [2840. Check if Strings Can be Made Equal With Operations II](./leetcode/2840.%20Check%20if%20Strings%20Can%20be%20Made%20Equal%20With%20Operations%20II.md) | 1486.2147876747 | Medium | dp |
 | [2846. 边权重均等查询](./leetcode/2846.%20边权重均等查询.md) | 2507.9960044659 | Hard | LCA |
 | [2859. 计算 K 置位下标对应元素的和](./leetcode/2859.%20计算%20K%20置位下标对应元素的和.md) | 1218.1083231462 | Easy | 枚舉 |
+| [2860. 让所有学生保持开心的分组方法数](./leetcode/2860.%20让所有学生保持开心的分组方法数.md) | 1625.7172632295 | Medium | 枚舉 |
 | [2861. 最大合金数](./leetcode/2861.%20最大合金数.md) | 1981.3072959787 | Medium | 枚舉 |
 | [2864. 最大二进制奇数](./leetcode/2864.%20最大二进制奇数.md) | 1237.693464609 | Easy | 枚舉 |
 | [2865. 美丽塔 I](./leetcode/2865.%20美丽塔%20I.md) | 1519.2070276362 | Medium | 枚舉 |
@@ -166,8 +168,12 @@
 | [3099. 哈沙德数](./leetcode/3099.%20哈沙德数.md) | 1100.5332505219 | Easy | 枚舉 |
 | [3112. 访问消失节点的最少时间](./leetcode/3112.%20访问消失节点的最少时间.md) | 1756.963553993 | Medium | Dijkstra |
 | [3115. 质数的最大距离](./leetcode/3115.%20质数的最大距离.md) | 1294.4633357092 | Medium | 枚舉 |
+| [3137. K 周期字符串需要的最少操作次数](./leetcode/3137.%20K%20周期字符串需要的最少操作次数.md) | 1491.2092519226 | Medium | 模擬 |
 | [3152. 特殊数组 II](./leetcode/3152.%20特殊数组%20II.md) | 1523.2643084719 | Medium | 枚舉 |
+| [3176. 求出最长好子序列 I](./leetcode/3176.%20求出最长好子序列%20I.md) | 1849.0388401196 | Medium | DP |
+| [3177. 求出最长好子序列 II](./leetcode/3177.%20求出最长好子序列%20II.md) | 2364.8208393306 | Hard | DP |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  | Medium | monotonic stack |
+| [3264. K 次乘运算后的最终数组 I](./leetcode/3264.%20K%20次乘运算后的最终数组%20I.md) |  | Easy | 枚舉, 最小堆 |
 | [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  | Medium | DFS, Tree DP |
 | [337. 打家劫舍 III](./leetcode/337.%20打家劫舍%20III.md) |  | Medium | DFS, Tree DP |

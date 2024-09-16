@@ -21,7 +21,7 @@ tags: ["DFS"]
 
 
 # Code
-```c++
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <vector>

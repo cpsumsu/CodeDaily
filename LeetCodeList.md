@@ -173,7 +173,7 @@
 | [3176. 求出最长好子序列 I](./leetcode/3176.%20求出最长好子序列%20I.md) | 1849.0388401196 | Medium | DP |
 | [3177. 求出最长好子序列 II](./leetcode/3177.%20求出最长好子序列%20II.md) | 2364.8208393306 | Hard | DP |
 | [32. Longest Valid Parentheses](./leetcode/32.%20Longest%20Valid%20Parentheses.md) |  | Medium | monotonic stack |
-| [3264. K 次乘运算后的最终数组 I](./leetcode/3264.%20K%20次乘运算后的最终数组%20I.md) |  | Easy | 枚舉, 最小堆 |
+| [3264. K 次乘运算后的最终数组 I](./leetcode/3264.%20K%20次乘运算后的最终数组%20I.md) | 1177.5447304844 | Easy | 枚舉, 最小堆 |
 | [332. 重新安排行程](./leetcode/332.%20重新安排行程.md) |  | Hard | DFS |
 | [337. House Robber III(extra)](./leetcode/337.%20House%20Robber%20III(extra).md) |  | Medium | DFS, Tree DP |
 | [337. 打家劫舍 III](./leetcode/337.%20打家劫舍%20III.md) |  | Medium | DFS, Tree DP |

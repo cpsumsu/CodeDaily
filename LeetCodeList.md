@@ -79,6 +79,7 @@
 | [2129. 将标题首字母大写](./leetcode/2129.%20将标题首字母大写.md) | 1274.881752217 | Easy | 雙指針 |
 | [216. 组合总和 III](./leetcode/216.%20组合总和%20III.md) |  | Medium | DFS |
 | [2171. 拿出最少数目的魔法豆](./leetcode/2171.%20拿出最少数目的魔法豆.md) | 1748.1339100823 | Medium | prefixsum |
+| [2187. 完成旅途的最少时间](./leetcode/2187.%20完成旅途的最少时间.md) | 1640.9591585343 | Medium | binary search |
 | [2192. 有向无环图中一个节点的所有祖先](./leetcode/2192.%20有向无环图中一个节点的所有祖先.md) | 1787.8550568757 | Medium | dfs |
 | [22. Generate Parentheses](./leetcode/22.%20Generate%20Parentheses.md) |  | Medium | Backtracking, DFS |
 | [221. Maximal Square](./leetcode/221.%20Maximal%20Square.md) |  | Medium | dp, array, matrix |
@@ -186,6 +187,7 @@
 | [409. Longest Palindrome](./leetcode/409.%20Longest%20Palindrome.md) |  | Easy | implementation |
 | [419. 甲板上的战舰](./leetcode/419.%20甲板上的战舰.md) |  | Medium | DFS |
 | [42. 接雨水](./leetcode/42.%20接雨水.md) |  | Hard | Greedy |
+| [436. 旅行终点站](./leetcode/436.%20旅行终点站.md) |  | Easy | hash map |
 | [447. 回旋镖的数量](./leetcode/447.%20回旋镖的数量.md) |  | Medium | 哈希表 |
 | [462. 最小操作次数使数组元素相等 II](./leetcode/462.%20最小操作次数使数组元素相等%20II.md) |  | Medium | 中位數貪心 |
 | [5. Longest Palindromic Substring](./leetcode/5.%20Longest%20Palindromic%20Substring.md) |  | Medium | String, dp, Manacher |

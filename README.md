@@ -1,4 +1,4 @@
-# LeetcodeDaily
+# LeetcodeDaily 
 
 ![metadata test](https://github.com/cpsumsu/CodeDaily/actions/workflows/metadata-check.yml/badge.svg)
 ![cpp20 build test](https://github.com/cpsumsu/CodeDaily/actions/workflows/cpp_20_build.yml/badge.svg)
